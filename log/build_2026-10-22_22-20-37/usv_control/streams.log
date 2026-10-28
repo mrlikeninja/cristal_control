@@ -1,0 +1,23 @@
+[0.372s] Invoking command in '/home/pedro/usv_ws/src/usv_control': PYTHONPATH=/home/pedro/usv_ws/build/usv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/usv_control build --build-base /home/pedro/usv_ws/build/usv_control/build install --record /home/pedro/usv_ws/build/usv_control/install.log --single-version-externally-managed install_data
+[0.508s] running egg_info
+[0.509s] writing ../../build/usv_control/usv_control.egg-info/PKG-INFO
+[0.509s] writing dependency_links to ../../build/usv_control/usv_control.egg-info/dependency_links.txt
+[0.509s] writing entry points to ../../build/usv_control/usv_control.egg-info/entry_points.txt
+[0.509s] writing requirements to ../../build/usv_control/usv_control.egg-info/requires.txt
+[0.509s] writing top-level names to ../../build/usv_control/usv_control.egg-info/top_level.txt
+[0.510s] reading manifest file '../../build/usv_control/usv_control.egg-info/SOURCES.txt'
+[0.510s] writing manifest file '../../build/usv_control/usv_control.egg-info/SOURCES.txt'
+[0.510s] running build
+[0.510s] running build_py
+[0.511s] running install
+[0.511s] running install_lib
+[0.511s] running install_data
+[0.511s] running install_egg_info
+[0.512s] removing '/home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages/usv_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.512s] Copying ../../build/usv_control/usv_control.egg-info to /home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages/usv_control-0.0.0-py3.10.egg-info
+[0.512s] running install_scripts
+[0.523s] Installing cmd_vel_test script to /home/pedro/usv_ws/install/usv_control/lib/usv_control
+[0.524s] Installing odom_from_pose script to /home/pedro/usv_ws/install/usv_control/lib/usv_control
+[0.524s] Installing waypoint_follower script to /home/pedro/usv_ws/install/usv_control/lib/usv_control
+[0.524s] writing list of installed files to '/home/pedro/usv_ws/build/usv_control/install.log'
+[0.539s] Invoked command in '/home/pedro/usv_ws/src/usv_control' returned '0': PYTHONPATH=/home/pedro/usv_ws/build/usv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/usv_control build --build-base /home/pedro/usv_ws/build/usv_control/build install --record /home/pedro/usv_ws/build/usv_control/install.log --single-version-externally-managed install_data

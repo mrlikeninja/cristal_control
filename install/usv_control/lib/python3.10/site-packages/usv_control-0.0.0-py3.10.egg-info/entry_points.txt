@@ -1,0 +1,6 @@
+[console_scripts]
+cmd_vel_test = usv_control.cmd_vel_test:main
+imu_odom_adapter = usv_control.imu_odom_adapter:main
+odom_from_pose = usv_control.odom_from_pose:main
+waypoint_follower = usv_control.waypoint_follower:main
+

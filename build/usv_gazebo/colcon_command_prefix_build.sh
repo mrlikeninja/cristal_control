@@ -1,0 +1,4 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/pedro/usv_ws/install/usv_description/share/usv_description/package.sh"
+. "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.sh"
+. "/home/pedro/usv_ws/install/usv_control/share/usv_control/package.sh"

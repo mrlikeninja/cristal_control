@@ -1,0 +1,13 @@
+# Target labels
+ xspublic
+# Source files and their labels
+/home/pedro/usv_ws/build/xsens_mti_ros2_driver/CMakeFiles/xspublic
+/home/pedro/usv_ws/build/xsens_mti_ros2_driver/CMakeFiles/xspublic.rule
+/home/pedro/usv_ws/build/xsens_mti_ros2_driver/CMakeFiles/xspublic-complete.rule
+/home/pedro/usv_ws/build/xsens_mti_ros2_driver/xspublic/src/xspublic-stamp/xspublic-build.rule
+/home/pedro/usv_ws/build/xsens_mti_ros2_driver/xspublic/src/xspublic-stamp/xspublic-configure.rule
+/home/pedro/usv_ws/build/xsens_mti_ros2_driver/xspublic/src/xspublic-stamp/xspublic-download.rule
+/home/pedro/usv_ws/build/xsens_mti_ros2_driver/xspublic/src/xspublic-stamp/xspublic-install.rule
+/home/pedro/usv_ws/build/xsens_mti_ros2_driver/xspublic/src/xspublic-stamp/xspublic-mkdir.rule
+/home/pedro/usv_ws/build/xsens_mti_ros2_driver/xspublic/src/xspublic-stamp/xspublic-patch.rule
+/home/pedro/usv_ws/build/xsens_mti_ros2_driver/xspublic/src/xspublic-stamp/xspublic-update.rule

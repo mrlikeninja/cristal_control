@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="simple_usv">
+
+  <!-- Base link -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="35.0"/>
+      <inertia ixx="2.0" ixy="0.0" ixz="0.0" iyy="3.0" iyz="0.0" izz="3.5"/>
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="1.8 0.6 0.25"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0.1 0.3 0.8 0.8"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="1.8 0.6 0.25"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Xsens MTi-670 IMU. The driver publishes imu_link as the sensor frame, and
+       robot_state_publisher (not the driver) must own this static transform.
+       The origin below is where the IMU is physically mounted on the hull;
+       update it to your measured position. Start the adapter's lever_arm_*
+       parameters at the negative of this offset. -->
+  <link name="imu_link">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.05"/>
+      <inertia ixx="1e-5" ixy="0.0" ixz="0.0" iyy="1e-5" iyz="0.0" izz="1e-5"/>
+    </inertial>
+  </link>
+
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <origin xyz="0.0 0.0 0.15" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Gazebo plugins -->
+  <gazebo>
+    <!-- Velocity control for /cmd_vel -->
+    <plugin filename="ignition-gazebo-velocity-control-system" name="ignition::gazebo::systems::VelocityControl">
+      <topic>/cmd_vel</topic>
+    </plugin>
+
+    <!-- Ground-truth odometry published on /odom (odom -> base_link) -->
+    <plugin filename="ignition-gazebo-odometry-publisher-system" name="ignition::gazebo::systems::OdometryPublisher">
+      <odom_frame>odom</odom_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+      <odom_topic>/odom</odom_topic>
+      <dimensions>2</dimensions>
+      <odom_publish_frequency>50</odom_publish_frequency>
+    </plugin>
+
+    <!-- Model pose published on /model/usv/pose -->
+    <plugin filename="ignition-gazebo-pose-publisher-system" name="ignition::gazebo::systems::PosePublisher">
+      <publish_link_pose>true</publish_link_pose>
+      <publish_visual_pose>false</publish_visual_pose>
+      <publish_nested_model_pose>false</publish_nested_model_pose>
+      <publish_model_pose>true</publish_model_pose>
+    </plugin>
+  </gazebo>
+</robot>

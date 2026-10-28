@@ -1,0 +1,25 @@
+[0.161s] Invoking command in '/home/pedro/usv_ws/build/usv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pedro/usv_ws/install/usv_control:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble /usr/bin/cmake --build /home/pedro/usv_ws/build/usv_gazebo -- -j22 -l22
+[0.202s] Invoked command in '/home/pedro/usv_ws/build/usv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pedro/usv_ws/install/usv_control:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble /usr/bin/cmake --build /home/pedro/usv_ws/build/usv_gazebo -- -j22 -l22
+[0.203s] Invoking command in '/home/pedro/usv_ws/build/usv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pedro/usv_ws/install/usv_control:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble /usr/bin/cmake --install /home/pedro/usv_ws/build/usv_gazebo
+[0.210s] -- Install configuration: ""
+[0.210s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo//launch
+[0.210s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo//launch/spawn_usv.launch.py
+[0.210s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo//launch/__pycache__
+[0.211s] -- Installing: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo//launch/__pycache__/spawn_usv.launch.cpython-310.pyc
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo//worlds
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/ament_index/resource_index/package_run_dependencies/usv_gazebo
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/ament_index/resource_index/parent_prefix_path/usv_gazebo
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/environment/ament_prefix_path.sh
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/environment/ament_prefix_path.dsv
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/environment/path.sh
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/environment/path.dsv
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/local_setup.bash
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/local_setup.sh
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/local_setup.zsh
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/local_setup.dsv
+[0.211s] -- Installing: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.dsv
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/ament_index/resource_index/packages/usv_gazebo
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/cmake/usv_gazeboConfig.cmake
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/cmake/usv_gazeboConfig-version.cmake
+[0.211s] -- Up-to-date: /home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.xml
+[0.220s] Invoked command in '/home/pedro/usv_ws/build/usv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pedro/usv_ws/install/usv_control:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble /usr/bin/cmake --install /home/pedro/usv_ws/build/usv_gazebo

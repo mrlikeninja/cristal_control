@@ -1,0 +1,103 @@
+# robot_localization EKF configuration for the USV, driven by the Xsens MTi-670.
+#
+# Two instances are used (see ekf_node.launch.py):
+#   ekf_odom_node : odom -> base_link   (continuous, local, drifts slowly)
+#   ekf_map_node  : map  -> odom        (global, GNSS-corrected)
+#
+# Inputs come from the MTi-670 driver. The driver publishes /odometry as a
+# *sensor measurement*: frame local_enu, child imu_link, with body-frame twist.
+# A small node (imu_odom_adapter) republishes the pose as odom -> base_link and
+# converts the body-frame twist to the world frame that robot_localization
+# requires for its velocity inputs.
+
+ekf_filter_node_odom:
+  ros__parameters:
+    frequency: 30.0
+    sensor_timeout: 0.1
+    two_d_mode: true          # USV: ignore roll/pitch/z to keep the filter well behaved
+
+    # Local frame chain
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: odom
+
+    publish_tf: true
+    print_diagnostics: true
+
+    # --- Odometry input: MTi-670 position + orientation -------------------
+    # Published by imu_odom_adapter in odom frame with base_link child.
+    odom0: /odom
+    odom0_config: [true,  true,  false,   # x, y, z
+                   false, false, true,    # roll, pitch, yaw
+                   false, false, false,   # vx, vy, vz
+                   false, false, false,   # vroll, vpitch, vyaw
+                   false, false, false]   # ax, ay, az
+    odom0_differential: false
+    odom0_relative: false
+    odom0_queue_size: 10
+
+    # --- IMU input: orientation and yaw rate only -------------------------
+    # /imu/data from the driver is in imu_link. Do NOT fuse its linear
+    # acceleration: on a boat the accelerometer sees thrust and wave motion,
+    # which would be integrated into large position errors.
+    imu0: /imu/data
+    imu0_config: [false, false, false,
+                  false, false, true,    # yaw (attitude)
+                  false, false, false,
+                  false, false, true,    # yaw rate (gyro)
+                  false, false, false]   # linear acceleration disabled on purpose
+    imu0_differential: false
+    imu0_relative: false
+    imu0_queue_size: 10
+    imu0_remove_gravitational_acceleration: false
+
+    # --- Raw velocity from the GNSS/INS, already in ENU -------------------
+    # imu_odom_adapter publishes the world-frame velocity here.
+    twist0: /gnss/velocity_enu
+    twist0_config: [false, false, false,
+                    false, false, false,
+                    true,  true,  false,   # vx, vy
+                    false, false, false,
+                    false, false, false]
+    twist0_differential: false
+    twist0_relative: false
+    twist0_queue_size: 10
+
+
+ekf_filter_node_map:
+  ros__parameters:
+    frequency: 30.0
+    sensor_timeout: 0.1
+    two_d_mode: true
+
+    map_frame: map
+    odom_frame: odom
+    base_link_frame: base_link
+    world_frame: map          # this instance owns map -> odom
+
+    publish_tf: true
+    print_diagnostics: true
+
+    # The same local odometry drives the local->global correction.
+    odom0: /odom
+    odom0_config: [true,  true,  false,
+                   false, false, true,
+                   false, false, false,
+                   false, false, false,
+                   false, false, false]
+    odom0_differential: false
+    odom0_relative: false
+    odom0_queue_size: 10
+
+    # Absolute GNSS position (lat/lon converted to the map frame by the
+    # adapter) pins the filter to the real world.
+    odom1: /gnss/odometry_map
+    odom1_config: [true,  true,  false,
+                   false, false, false,
+                   false, false, false,
+                   false, false, false,
+                   false, false, false]
+    odom1_differential: false
+    odom1_relative: false
+    odom1_queue_size: 10

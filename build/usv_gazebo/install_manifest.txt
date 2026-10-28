@@ -1,0 +1,17 @@
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo//launch/spawn_usv.launch.py
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo//launch/__pycache__/spawn_usv.launch.cpython-310.pyc
+/home/pedro/usv_ws/install/usv_gazebo/share/ament_index/resource_index/package_run_dependencies/usv_gazebo
+/home/pedro/usv_ws/install/usv_gazebo/share/ament_index/resource_index/parent_prefix_path/usv_gazebo
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/environment/ament_prefix_path.sh
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/environment/ament_prefix_path.dsv
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/environment/path.sh
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/environment/path.dsv
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/local_setup.bash
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/local_setup.sh
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/local_setup.zsh
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/local_setup.dsv
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.dsv
+/home/pedro/usv_ws/install/usv_gazebo/share/ament_index/resource_index/packages/usv_gazebo
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/cmake/usv_gazeboConfig.cmake
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/cmake/usv_gazeboConfig-version.cmake
+/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.xml

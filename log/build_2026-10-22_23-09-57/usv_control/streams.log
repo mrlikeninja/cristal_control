@@ -1,0 +1,26 @@
+[0.359s] Invoking command in '/home/pedro/usv_ws/src/usv_control': AMENT_PREFIX_PATH=/home/pedro/usv_ws/install/xsens_mti_ros2_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/usv_ws/install/xsens_mti_ros2_driver LD_LIBRARY_PATH=/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pedro/usv_ws/build/usv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages:/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/usv_control build --build-base /home/pedro/usv_ws/build/usv_control/build install --record /home/pedro/usv_ws/build/usv_control/install.log --single-version-externally-managed install_data
+[0.495s] running egg_info
+[0.496s] writing ../../build/usv_control/usv_control.egg-info/PKG-INFO
+[0.496s] writing dependency_links to ../../build/usv_control/usv_control.egg-info/dependency_links.txt
+[0.496s] writing entry points to ../../build/usv_control/usv_control.egg-info/entry_points.txt
+[0.496s] writing requirements to ../../build/usv_control/usv_control.egg-info/requires.txt
+[0.496s] writing top-level names to ../../build/usv_control/usv_control.egg-info/top_level.txt
+[0.497s] reading manifest file '../../build/usv_control/usv_control.egg-info/SOURCES.txt'
+[0.497s] writing manifest file '../../build/usv_control/usv_control.egg-info/SOURCES.txt'
+[0.497s] running build
+[0.497s] running build_py
+[0.498s] running install
+[0.498s] running install_lib
+[0.498s] running install_data
+[0.499s] creating /home/pedro/usv_ws/install/usv_control/share/usv_control/config
+[0.499s] copying config/ekf.yaml -> /home/pedro/usv_ws/install/usv_control/share/usv_control/config
+[0.499s] running install_egg_info
+[0.499s] removing '/home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages/usv_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.500s] Copying ../../build/usv_control/usv_control.egg-info to /home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages/usv_control-0.0.0-py3.10.egg-info
+[0.500s] running install_scripts
+[0.512s] Installing cmd_vel_test script to /home/pedro/usv_ws/install/usv_control/lib/usv_control
+[0.512s] Installing imu_odom_adapter script to /home/pedro/usv_ws/install/usv_control/lib/usv_control
+[0.512s] Installing odom_from_pose script to /home/pedro/usv_ws/install/usv_control/lib/usv_control
+[0.512s] Installing waypoint_follower script to /home/pedro/usv_ws/install/usv_control/lib/usv_control
+[0.512s] writing list of installed files to '/home/pedro/usv_ws/build/usv_control/install.log'
+[0.527s] Invoked command in '/home/pedro/usv_ws/src/usv_control' returned '0': AMENT_PREFIX_PATH=/home/pedro/usv_ws/install/xsens_mti_ros2_driver:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/usv_ws/install/xsens_mti_ros2_driver LD_LIBRARY_PATH=/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pedro/usv_ws/build/usv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages:/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/usv_control build --build-base /home/pedro/usv_ws/build/usv_control/build install --record /home/pedro/usv_ws/build/usv_control/install.log --single-version-externally-managed install_data

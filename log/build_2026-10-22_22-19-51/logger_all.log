@@ -1,0 +1,252 @@
+[0.058s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.058s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=22, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7cb8f0bcba60>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7cb8f0da49d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7cb8f0da49d0>>, mixin_verb=('build',))
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.151s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pedro/usv_ws'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_control) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_control) by extension 'ignore'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_control) by extension 'ignore_ament_install'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_control) by extensions ['colcon_pkg']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_control) by extension 'colcon_pkg'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_control) by extensions ['colcon_meta']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_control) by extension 'colcon_meta'
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_control) by extensions ['ros']
+[0.158s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_control) by extension 'ros'
+[0.160s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usv_control' with type 'ros.ament_python' and name 'usv_control'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_description) by extensions ['ignore', 'ignore_ament_install']
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_description) by extension 'ignore'
+[0.160s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_description) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_description) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_description) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_description) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_description) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_description) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_description) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usv_description' with type 'ros.ament_cmake' and name 'usv_description'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_gazebo) by extension 'ignore'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_gazebo) by extension 'ignore_ament_install'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_gazebo) by extensions ['colcon_pkg']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_gazebo) by extension 'colcon_pkg'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_gazebo) by extensions ['colcon_meta']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_gazebo) by extension 'colcon_meta'
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_gazebo) by extensions ['ros']
+[0.161s] Level 1:colcon.colcon_core.package_identification:_identify(src/usv_gazebo) by extension 'ros'
+[0.161s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usv_gazebo' with type 'ros.ament_cmake' and name 'usv_gazebo'
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.161s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/pedro/usv_ws/install
+[0.179s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/pedro/ros2_ws/install
+[0.180s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 352 installed packages in /opt/ros/humble
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'usv_control' build argument 'cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'usv_control' build argument 'cmake_target' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'usv_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'usv_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'usv_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'usv_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'usv_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'usv_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'usv_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.203s] DEBUG:colcon.colcon_core.verb:Building package 'usv_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pedro/usv_ws/build/usv_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pedro/usv_ws/install/usv_control', 'merge_install': False, 'path': '/home/pedro/usv_ws/src/usv_control', 'symlink_install': False, 'test_result_base': None}
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'usv_description' build argument 'cmake_args' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'usv_description' build argument 'cmake_target' from command line to 'None'
+[0.203s] Level 5:colcon.colcon_core.verb:set package 'usv_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.204s] DEBUG:colcon.colcon_core.verb:Building package 'usv_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pedro/usv_ws/build/usv_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pedro/usv_ws/install/usv_description', 'merge_install': False, 'path': '/home/pedro/usv_ws/src/usv_description', 'symlink_install': False, 'test_result_base': None}
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'usv_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.204s] DEBUG:colcon.colcon_core.verb:Building package 'usv_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pedro/usv_ws/build/usv_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pedro/usv_ws/install/usv_gazebo', 'merge_install': False, 'path': '/home/pedro/usv_ws/src/usv_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.204s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.205s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.205s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pedro/usv_ws/src/usv_control' with build type 'ament_python'
+[0.205s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_control', 'ament_prefix_path')
+[0.206s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.206s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pedro/usv_ws/install/usv_control/share/usv_control/hook/ament_prefix_path.ps1'
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pedro/usv_ws/install/usv_control/share/usv_control/hook/ament_prefix_path.dsv'
+[0.207s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pedro/usv_ws/install/usv_control/share/usv_control/hook/ament_prefix_path.sh'
+[0.207s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.207s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.210s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pedro/usv_ws/src/usv_description' with build type 'ament_cmake'
+[0.210s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pedro/usv_ws/src/usv_description'
+[0.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.212s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pedro/usv_ws/src/usv_gazebo' with build type 'ament_cmake'
+[0.212s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pedro/usv_ws/src/usv_gazebo'
+[0.212s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.212s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.361s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pedro/usv_ws/src/usv_control'
+[0.362s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.362s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pedro/usv_ws/build/usv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pedro/usv_ws/install/usv_control:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble /usr/bin/cmake --build /home/pedro/usv_ws/build/usv_description -- -j22 -l22
+[0.372s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pedro/usv_ws/build/usv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pedro/usv_ws/install/usv_control:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble /usr/bin/cmake --build /home/pedro/usv_ws/build/usv_gazebo -- -j22 -l22
+[0.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pedro/usv_ws/build/usv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pedro/usv_ws/install/usv_control:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble /usr/bin/cmake --build /home/pedro/usv_ws/build/usv_description -- -j22 -l22
+[0.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pedro/usv_ws/build/usv_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pedro/usv_ws/install/usv_control:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble /usr/bin/cmake --install /home/pedro/usv_ws/build/usv_description
+[0.410s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pedro/usv_ws/build/usv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pedro/usv_ws/install/usv_control:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble /usr/bin/cmake --build /home/pedro/usv_ws/build/usv_gazebo -- -j22 -l22
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pedro/usv_ws/build/usv_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pedro/usv_ws/install/usv_control:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble /usr/bin/cmake --install /home/pedro/usv_ws/build/usv_gazebo
+[0.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usv_description)
+[0.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pedro/usv_ws/build/usv_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pedro/usv_ws/install/usv_control:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble /usr/bin/cmake --install /home/pedro/usv_ws/build/usv_description
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_description' for CMake module files
+[0.421s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_description' for CMake config files
+[0.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_description', 'cmake_prefix_path')
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pedro/usv_ws/install/usv_description/share/usv_description/hook/cmake_prefix_path.ps1'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pedro/usv_ws/install/usv_description/share/usv_description/hook/cmake_prefix_path.dsv'
+[0.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pedro/usv_ws/install/usv_description/share/usv_description/hook/cmake_prefix_path.sh'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_description/bin'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_description/lib/pkgconfig/usv_description.pc'
+[0.423s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_description/lib/python3.10/site-packages'
+[0.424s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_description/bin'
+[0.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_description/share/usv_description/package.ps1'
+[0.425s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pedro/usv_ws/install/usv_description/share/usv_description/package.dsv'
+[0.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_description/share/usv_description/package.sh'
+[0.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_description/share/usv_description/package.bash'
+[0.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_description/share/usv_description/package.zsh'
+[0.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pedro/usv_ws/install/usv_description/share/colcon-core/packages/usv_description)
+[0.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usv_description)
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_description' for CMake module files
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_description' for CMake config files
+[0.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_description', 'cmake_prefix_path')
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pedro/usv_ws/install/usv_description/share/usv_description/hook/cmake_prefix_path.ps1'
+[0.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pedro/usv_ws/install/usv_description/share/usv_description/hook/cmake_prefix_path.dsv'
+[0.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pedro/usv_ws/install/usv_description/share/usv_description/hook/cmake_prefix_path.sh'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_description/bin'
+[0.430s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_description/lib/pkgconfig/usv_description.pc'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_description/lib/python3.10/site-packages'
+[0.431s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_description/bin'
+[0.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_description/share/usv_description/package.ps1'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pedro/usv_ws/install/usv_description/share/usv_description/package.dsv'
+[0.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_description/share/usv_description/package.sh'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_description/share/usv_description/package.bash'
+[0.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_description/share/usv_description/package.zsh'
+[0.434s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pedro/usv_ws/install/usv_description/share/colcon-core/packages/usv_description)
+[0.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usv_gazebo)
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_gazebo' for CMake module files
+[0.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pedro/usv_ws/build/usv_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pedro/usv_ws/install/usv_control:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble /usr/bin/cmake --install /home/pedro/usv_ws/build/usv_gazebo
+[0.436s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_gazebo' for CMake config files
+[0.436s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_gazebo', 'cmake_prefix_path')
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/hook/cmake_prefix_path.ps1'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/hook/cmake_prefix_path.dsv'
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/hook/cmake_prefix_path.sh'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_gazebo/bin'
+[0.437s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_gazebo/lib/pkgconfig/usv_gazebo.pc'
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_gazebo/lib/python3.10/site-packages'
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_gazebo/bin'
+[0.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.ps1'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.dsv'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.sh'
+[0.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.bash'
+[0.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.zsh'
+[0.440s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pedro/usv_ws/install/usv_gazebo/share/colcon-core/packages/usv_gazebo)
+[0.441s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usv_gazebo)
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_gazebo' for CMake module files
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_gazebo' for CMake config files
+[0.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_gazebo', 'cmake_prefix_path')
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/hook/cmake_prefix_path.ps1'
+[0.442s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/hook/cmake_prefix_path.dsv'
+[0.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/hook/cmake_prefix_path.sh'
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_gazebo/bin'
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_gazebo/lib/pkgconfig/usv_gazebo.pc'
+[0.443s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_gazebo/lib/python3.10/site-packages'
+[0.443s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_gazebo/bin'
+[0.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.ps1'
+[0.443s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.dsv'
+[0.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.sh'
+[0.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.bash'
+[0.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_gazebo/share/usv_gazebo/package.zsh'
+[0.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pedro/usv_ws/install/usv_gazebo/share/colcon-core/packages/usv_gazebo)
+[0.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pedro/usv_ws/src/usv_control': PYTHONPATH=/home/pedro/usv_ws/build/usv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/usv_control build --build-base /home/pedro/usv_ws/build/usv_control/build install --record /home/pedro/usv_ws/build/usv_control/install.log --single-version-externally-managed install_data
+[0.745s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_control' for CMake module files
+[0.746s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pedro/usv_ws/src/usv_control' returned '0': PYTHONPATH=/home/pedro/usv_ws/build/usv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/usv_control build --build-base /home/pedro/usv_ws/build/usv_control/build install --record /home/pedro/usv_ws/build/usv_control/install.log --single-version-externally-managed install_data
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_control' for CMake config files
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_control/lib'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_control/bin'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_control/lib/pkgconfig/usv_control.pc'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages'
+[0.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_control', 'pythonpath')
+[0.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pedro/usv_ws/install/usv_control/share/usv_control/hook/pythonpath.ps1'
+[0.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pedro/usv_ws/install/usv_control/share/usv_control/hook/pythonpath.dsv'
+[0.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pedro/usv_ws/install/usv_control/share/usv_control/hook/pythonpath.sh'
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/pedro/usv_ws/install/usv_control/bin'
+[0.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usv_control)
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_control/share/usv_control/package.ps1'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pedro/usv_ws/install/usv_control/share/usv_control/package.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_control/share/usv_control/package.sh'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_control/share/usv_control/package.bash'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/pedro/usv_ws/install/usv_control/share/usv_control/package.zsh'
+[0.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pedro/usv_ws/install/usv_control/share/colcon-core/packages/usv_control)
+[0.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.752s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.755s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.755s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.755s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.767s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.768s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pedro/usv_ws/install/local_setup.ps1'
+[0.769s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pedro/usv_ws/install/_local_setup_util_ps1.py'
+[0.770s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pedro/usv_ws/install/setup.ps1'
+[0.771s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pedro/usv_ws/install/local_setup.sh'
+[0.771s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pedro/usv_ws/install/_local_setup_util_sh.py'
+[0.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pedro/usv_ws/install/setup.sh'
+[0.772s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pedro/usv_ws/install/local_setup.bash'
+[0.772s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pedro/usv_ws/install/setup.bash'
+[0.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pedro/usv_ws/install/local_setup.zsh'
+[0.773s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pedro/usv_ws/install/setup.zsh'

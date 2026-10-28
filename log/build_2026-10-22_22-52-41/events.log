@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (-) JobUnselected: {'identifier': 'ntrip'}
+[0.000250] (-) JobUnselected: {'identifier': 'usv_control'}
+[0.000623] (-) JobUnselected: {'identifier': 'usv_description'}
+[0.000663] (-) JobUnselected: {'identifier': 'usv_gazebo'}
+[0.000683] (xsens_mti_ros2_driver) JobQueued: {'identifier': 'xsens_mti_ros2_driver', 'dependencies': OrderedDict()}
+[0.000700] (xsens_mti_ros2_driver) JobStarted: {'identifier': 'xsens_mti_ros2_driver'}
+[0.006148] (xsens_mti_ros2_driver) JobProgress: {'identifier': 'xsens_mti_ros2_driver', 'progress': 'cmake'}
+[0.006815] (xsens_mti_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/pedro/usv_ws/install/xsens_mti_ros2_driver'], 'cwd': '/home/pedro/usv_ws/build/xsens_mti_ros2_driver', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/pedro/ardupilot_gazebo/build'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('OPENCODE_DISABLE_EMBEDDED_WEB_UI', 'true'), ('no_proxy', '127.0.0.1,localhost,::1'), ('AI_AGENT', 'opencode'), ('OPENCODE_SESSION_ID', 'ses_e9a809ff5ffeDhk05j4xO25tsU'), ('USER', 'pedro'), ('LC_TIME', 'pt_PT.UTF-8'), ('AGENT', '1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('CHROME_DESKTOP', 'ai.opencode.desktop.desktop'), ('OLDPWD', '/home/pedro/usv_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', '127.0.0.1,localhost,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/ai.opencode.desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1919'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('SYSTEMD_EXEC_PID', '2264'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5206'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pedro'), ('OPENCODE_CLIENT', 'desktop'), ('JOURNAL_STREAM', '8:15062'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('OPENCODE_TERMINAL', '1'), ('USERNAME', 'pedro'), ('STM32_PRG_PATH', '/home/pedro/Desktop/STM32CubeProg/binexport'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OPENCODE', '1'), ('PATH', '/home/pedro/.local/bin:/opt/ros/humble/bin:/home/pedro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pedro/ardupilot/Tools/autotest:/home/pedro/.local/bin:/home/pedro/.local/bin:/home/pedro/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/pedro-ThinkPad-P16s-Gen-3:@/tmp/.ICE-unix/2240,unix/pedro-ThinkPad-P16s-Gen-3:/tmp/.ICE-unix/2240'), ('INVOCATION_ID', '335fbe013a6647fba86e64e01a43fc0f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('OPENCODE_EXPERIMENTAL_FILEWATCHER', 'true'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('OPENCODE_EXPERIMENTAL_ICON_DISCOVERY', 'true'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/usv_ws/build/xsens_mti_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/pedro/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/ros2_ws/install/rover_cmd_vel_pub/lib/python3.10/site-packages:/home/pedro/ros2_ws/install/cmd_vel_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble')]), 'shell': False}
+[0.049506] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.087493] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.092123] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099658] (-) TimerEvent: {}
+[0.143420] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.149867] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.150082] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.150430] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.153601] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199770] (-) TimerEvent: {}
+[0.210632] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.216087] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.216230] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.216410] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.217633] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299888] (-) TimerEvent: {}
+[0.323992] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.377963] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.399992] (-) TimerEvent: {}
+[0.400583] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.403030] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.407342] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.413360] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.421476] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.444280] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.445525] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500099] (-) TimerEvent: {}
+[0.511736] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.532822] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.558885] (xsens_mti_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.563155] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600189] (-) TimerEvent: {}
+[0.621224] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.621796] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.681759] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.682431] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700266] (-) TimerEvent: {}
+[0.714423] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.731114] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[0.740702] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.755614] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.800384] (-) TimerEvent: {}
+[0.807919] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.817591] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.832063] (xsens_mti_ros2_driver) StderrLine: {'line': b'CMake Error at CMakeLists.txt:23 (find_package):\n'}
+[0.832244] (xsens_mti_ros2_driver) StderrLine: {'line': b'  By not providing "Findnmea_msgs.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.832315] (xsens_mti_ros2_driver) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.832374] (xsens_mti_ros2_driver) StderrLine: {'line': b'  "nmea_msgs", but CMake did not find one.\n'}
+[0.832429] (xsens_mti_ros2_driver) StderrLine: {'line': b'\n'}
+[0.832483] (xsens_mti_ros2_driver) StderrLine: {'line': b'  Could not find a package configuration file provided by "nmea_msgs" with\n'}
+[0.832535] (xsens_mti_ros2_driver) StderrLine: {'line': b'  any of the following names:\n'}
+[0.832587] (xsens_mti_ros2_driver) StderrLine: {'line': b'\n'}
+[0.832638] (xsens_mti_ros2_driver) StderrLine: {'line': b'    nmea_msgsConfig.cmake\n'}
+[0.832688] (xsens_mti_ros2_driver) StderrLine: {'line': b'    nmea_msgs-config.cmake\n'}
+[0.832740] (xsens_mti_ros2_driver) StderrLine: {'line': b'\n'}
+[0.832791] (xsens_mti_ros2_driver) StderrLine: {'line': b'  Add the installation prefix of "nmea_msgs" to CMAKE_PREFIX_PATH or set\n'}
+[0.832840] (xsens_mti_ros2_driver) StderrLine: {'line': b'  "nmea_msgs_DIR" to a directory containing one of the above files.  If\n'}
+[0.832890] (xsens_mti_ros2_driver) StderrLine: {'line': b'  "nmea_msgs" provides a separate development package or SDK, be sure it has\n'}
+[0.832942] (xsens_mti_ros2_driver) StderrLine: {'line': b'  been installed.\n'}
+[0.832994] (xsens_mti_ros2_driver) StderrLine: {'line': b'\n'}
+[0.833053] (xsens_mti_ros2_driver) StderrLine: {'line': b'\n'}
+[0.833105] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.833160] (xsens_mti_ros2_driver) StdoutLine: {'line': b'See also "/home/pedro/usv_ws/build/xsens_mti_ros2_driver/CMakeFiles/CMakeOutput.log".\n'}
+[0.838636] (xsens_mti_ros2_driver) CommandEnded: {'returncode': 1}
+[0.860471] (xsens_mti_ros2_driver) JobEnded: {'identifier': 'xsens_mti_ros2_driver', 'rc': 1}
+[0.870980] (-) EventReactorShutdown: {}

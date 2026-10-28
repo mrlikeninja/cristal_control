@@ -1,0 +1,516 @@
+[0.007s] Invoking command in '/home/pedro/usv_ws/build/xsens_mti_ros2_driver': AMENT_PREFIX_PATH=/home/pedro/usv_ws/install/nmea_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/usv_ws/install/nmea_msgs:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/pedro/usv_ws/install/nmea_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/pedro/usv_ws/install/xsens_mti_ros2_driver
+[0.017s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.102s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.119s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.120s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.125s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.153s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.154s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.228s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.257s] -- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.266s] -- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[0.273s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[0.285s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.329s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.338s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.347s] -- Found nmea_msgs: 2.0.0 (/home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake)
+[0.356s] -- Found mavros_msgs: 2.14.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+[0.384s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.392s] -- Detected ROS_DISTRO: humble
+[0.587s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.831s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.927s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.944s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.944s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.964s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.964s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.964s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.964s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.980s] -- Found PythonExtra: .so  
+[1.021s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.027s] -- Configuring done
+[1.062s] -- Generating done
+[1.072s] -- Build files have been written to: /home/pedro/usv_ws/build/xsens_mti_ros2_driver
+[1.080s] Invoked command in '/home/pedro/usv_ws/build/xsens_mti_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/pedro/usv_ws/install/nmea_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/usv_ws/install/nmea_msgs:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/pedro/usv_ws/install/nmea_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/pedro/usv_ws/install/xsens_mti_ros2_driver
+[1.082s] Invoking command in '/home/pedro/usv_ws/build/xsens_mti_ros2_driver': AMENT_PREFIX_PATH=/home/pedro/usv_ws/install/nmea_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/usv_ws/install/nmea_msgs:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/pedro/usv_ws/install/nmea_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pedro/usv_ws/build/xsens_mti_ros2_driver -- -j22 -l22
+[1.119s] [  1%] Generating C code for ROS interfaces
+[1.123s] [  2%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[1.124s] [  3%] Creating directories for 'xspublic'
+[1.125s] [  4%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[1.126s] [  6%] Building CXX object CMakeFiles/test_local_enu.dir/test/test_local_enu.cpp.o
+[1.127s] [  7%] Generating C++ code for ROS interfaces
+[1.128s] [  7%] Built target ament_cmake_python_copy_xsens_mti_ros2_driver
+[1.188s] [  8%] No download step for 'xspublic'
+[1.211s] [  9%] No update step for 'xspublic'
+[1.233s] [ 11%] No patch step for 'xspublic'
+[1.255s] [ 12%] No configure step for 'xspublic'
+[1.281s] [ 13%] Performing build step for 'xspublic'
+[1.285s] make[3]: Entering directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic'
+[1.285s] make -C xstypes -w libxstypes.a
+[1.286s] make[4]: Entering directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xstypes'
+[1.289s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsarray.c -o xsarray.c.o
+[1.292s] running egg_info
+[1.292s] creating xsens_mti_ros2_driver.egg-info
+[1.292s] writing xsens_mti_ros2_driver.egg-info/PKG-INFO
+[1.292s] writing dependency_links to xsens_mti_ros2_driver.egg-info/dependency_links.txt
+[1.292s] writing top-level names to xsens_mti_ros2_driver.egg-info/top_level.txt
+[1.292s] writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+[1.294s] reading manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+[1.294s] writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+[1.316s] [ 13%] Built target ament_cmake_python_build_xsens_mti_ros2_driver_egg
+[1.349s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsbaud.c -o xsbaud.c.o
+[1.383s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsbytearray.c -o xsbytearray.c.o
+[1.418s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xscalibrateddata.c -o xscalibrateddata.c.o
+[1.464s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xscanoutputconfigurationarray.c -o xscanoutputconfigurationarray.c.o
+[1.496s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xscanoutputconfiguration.c -o xscanoutputconfiguration.c.o
+[1.501s] [ 14%] Linking CXX static library libgtest_main.a
+[1.529s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsdatapacketptrarray.c -o xsdatapacketptrarray.c.o
+[1.590s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsdevicecapabilities.c -o xsdevicecapabilities.c.o
+[1.618s] [ 14%] Built target gtest_main
+[1.625s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsdeviceidarray.c -o xsdeviceidarray.c.o
+[1.669s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsdeviceid.c -o xsdeviceid.c.o
+[1.747s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xseuler.c -o xseuler.c.o
+[1.793s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsfile.c -o xsfile.c.o
+[1.854s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsfilterprofilearray.c -o xsfilterprofilearray.c.o
+[1.892s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsfilterprofile.c -o xsfilterprofile.c.o
+[1.933s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsglovedata.c -o xsglovedata.c.o
+[1.986s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsint64array.c -o xsint64array.c.o
+[2.008s] [ 16%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/gnss_pvt__functions.c.o
+[2.008s] [ 17%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__functions.c.o
+[2.010s] [ 18%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.c.o
+[2.010s] [ 19%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/ship_motion__functions.c.o
+[2.025s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsintarray.c -o xsintarray.c.o
+[2.061s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xslibraryloader.c -o xslibraryloader.c.o
+[2.098s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsmalloc.c -o xsmalloc.c.o
+[2.108s] [ 20%] Linking C shared library libxsens_mti_ros2_driver__rosidl_generator_c.so
+[2.109s] [ 20%] Built target xsens_mti_ros2_driver__cpp
+[2.115s] [ 22%] Generating C++ introspection for ROS interfaces
+[2.119s] [ 23%] Generating C++ type support dispatch for ROS interfaces
+[2.119s] [ 24%] Generating C++ type support for eProsima Fast-RTPS
+[2.136s] [ 24%] Built target xsens_mti_ros2_driver__rosidl_generator_c
+[2.145s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsmath.c -o xsmath.c.o
+[2.147s] [ 28%] Generating C type support for eProsima Fast-RTPS
+[2.147s] [ 28%] Generating C introspection for ROS interfaces
+[2.147s] [ 28%] Generating C type support dispatch for ROS interfaces
+[2.199s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsmatrix3x3.c -o xsmatrix3x3.c.o
+[2.256s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsmatrix.c -o xsmatrix.c.o
+[2.317s] [ 29%] Linking CXX executable test_local_enu
+[2.330s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsmessagearray.c -o xsmessagearray.c.o
+[2.375s] [ 29%] Built target test_local_enu
+[2.376s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsmessage.c -o xsmessage.c.o
+[2.477s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsoutputconfigurationarray.c -o xsoutputconfigurationarray.c.o
+[2.516s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsoutputconfiguration.c -o xsoutputconfiguration.c.o
+[2.552s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsportinfoarray.c -o xsportinfoarray.c.o
+[2.601s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsportinfo.c -o xsportinfo.c.o
+[2.647s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsquaternionarray.c -o xsquaternionarray.c.o
+[2.700s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsquaternion.c -o xsquaternion.c.o
+[2.764s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsrange.c -o xsrange.c.o
+[2.799s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsresultvalue.c -o xsresultvalue.c.o
+[2.839s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsrssi.c -o xsrssi.c.o
+[2.875s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssdidata.c -o xssdidata.c.o
+[2.932s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssimpleversion.c -o xssimpleversion.c.o
+[2.977s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssnapshot.c -o xssnapshot.c.o
+[3.021s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssocket.c -o xssocket.c.o
+[3.044s] [ 32%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xsens_mti_ros2_driver/msg/gnss_pvt__type_support.cpp.o
+[3.045s] [ 32%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xsens_mti_ros2_driver/msg/gnss_sat_info__type_support.cpp.o
+[3.047s] [ 34%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xsens_mti_ros2_driver/msg/xs_status_word__type_support.cpp.o
+[3.047s] [ 34%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xsens_mti_ros2_driver/msg/ship_motion__type_support.cpp.o
+[3.087s] [ 38%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.c.o
+[3.087s] [ 38%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.c.o
+[3.087s] [ 38%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.c.o
+[3.087s] [ 39%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.c.o
+[3.089s] [ 40%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xsens_mti_ros2_driver/msg/detail/dds_fastrtps/gnss_sat_info__type_support.cpp.o
+[3.089s] [ 41%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xsens_mti_ros2_driver/msg/detail/dds_fastrtps/ship_motion__type_support.cpp.o
+[3.090s] [ 43%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xsens_mti_ros2_driver/msg/detail/dds_fastrtps/xs_status_word__type_support.cpp.o
+[3.091s] [ 44%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xsens_mti_ros2_driver/msg/detail/dds_fastrtps/gnss_pvt__type_support.cpp.o
+[3.128s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsstringarray.c -o xsstringarray.c.o
+[3.152s] [ 45%] Linking C shared library libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so
+[3.165s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsstring.c -o xsstring.c.o
+[3.180s] [ 45%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c
+[3.234s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsstringoutputtypearray.c -o xsstringoutputtypearray.c.o
+[3.264s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssyncsettingarray.c -o xssyncsettingarray.c.o
+[3.293s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssyncsetting.c -o xssyncsetting.c.o
+[3.326s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsthread.c -o xsthread.c.o
+[3.327s] [ 48%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support_c.cpp.o
+[3.327s] [ 48%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support_c.cpp.o
+[3.328s] [ 49%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support_c.cpp.o
+[3.328s] [ 50%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support_c.cpp.o
+[3.355s] [ 51%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.cpp.o
+[3.355s] [ 53%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.cpp.o
+[3.355s] [ 54%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.cpp.o
+[3.356s] [ 55%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.cpp.o
+[3.377s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xstime.c -o xstime.c.o
+[3.384s] [ 56%] Linking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so
+[3.421s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xstimeinfo.c -o xstimeinfo.c.o
+[3.425s] [ 56%] Built target xsens_mti_ros2_driver__rosidl_typesupport_cpp
+[3.449s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xstimestamp.c -o xstimestamp.c.o
+[3.482s] [ 58%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/xsens_mti_ros2_driver/msg/xs_status_word__type_support.cpp.o
+[3.482s] [ 60%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/xsens_mti_ros2_driver/msg/gnss_pvt__type_support.cpp.o
+[3.482s] [ 60%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/xsens_mti_ros2_driver/msg/ship_motion__type_support.cpp.o
+[3.482s] [ 61%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/xsens_mti_ros2_driver/msg/gnss_sat_info__type_support.cpp.o
+[3.491s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xstriggerindicationdata.c -o xstriggerindicationdata.c.o
+[3.517s] [ 62%] Linking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_c.so
+[3.518s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xstypedefs.c -o xstypedefs.c.o
+[3.549s] [ 62%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c
+[3.552s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsutctime.c -o xsutctime.c.o
+[3.584s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsvector2.c -o xsvector2.c.o
+[3.606s] [ 64%] Linking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so
+[3.633s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsvector3.c -o xsvector3.c.o
+[3.668s] [ 64%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp
+[3.677s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsvector.c -o xsvector.c.o
+[3.731s] cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsversion.c -o xsversion.c.o
+[3.738s] [ 65%] Linking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so
+[3.769s] [ 66%] Linking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so
+[3.780s] g++ -c -std=c++11 -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic datapacket_p.cpp -o datapacket_p.cpp.o
+[3.795s] [ 66%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c
+[3.824s] [ 66%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp
+[3.842s] [ 66%] Built target xsens_mti_ros2_driver
+[3.860s] [ 67%] Generating Python code for ROS interfaces
+[4.108s] g++ -c -std=c++11 -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsdatapacket.cpp -o xsdatapacket.cpp.o
+[4.727s] g++ -c -std=c++11 -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsdebugcounters.cpp -o xsdebugcounters.cpp.o
+[4.779s] g++ -c -std=c++11 -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssensorranges.cpp -o xssensorranges.cpp.o
+[4.918s] ar rcs libxstypes.a xsarray.c.o xsbaud.c.o xsbytearray.c.o xscalibrateddata.c.o xscanoutputconfigurationarray.c.o xscanoutputconfiguration.c.o xsdatapacketptrarray.c.o xsdevicecapabilities.c.o xsdeviceidarray.c.o xsdeviceid.c.o xseuler.c.o xsfile.c.o xsfilterprofilearray.c.o xsfilterprofile.c.o xsglovedata.c.o xsint64array.c.o xsintarray.c.o xslibraryloader.c.o xsmalloc.c.o xsmath.c.o xsmatrix3x3.c.o xsmatrix.c.o xsmessagearray.c.o xsmessage.c.o xsoutputconfigurationarray.c.o xsoutputconfiguration.c.o xsportinfoarray.c.o xsportinfo.c.o xsquaternionarray.c.o xsquaternion.c.o xsrange.c.o xsresultvalue.c.o xsrssi.c.o xssdidata.c.o xssimpleversion.c.o xssnapshot.c.o xssocket.c.o xsstringarray.c.o xsstring.c.o xsstringoutputtypearray.c.o xssyncsettingarray.c.o xssyncsetting.c.o xsthread.c.o xstime.c.o xstimeinfo.c.o xstimestamp.c.o xstriggerindicationdata.c.o xstypedefs.c.o xsutctime.c.o xsvector2.c.o xsvector3.c.o xsvector.c.o xsversion.c.o datapacket_p.cpp.o xsdatapacket.cpp.o xsdebugcounters.cpp.o xssensorranges.cpp.o
+[4.937s] make[4]: Leaving directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xstypes'
+[4.937s] make -C xscommon -w
+[4.939s] make[4]: Entering directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xscommon'
+[4.940s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h additionalloggerbase.cpp -o additionalloggerbase.cpp.o
+[5.041s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h consolelogger.cpp -o consolelogger.cpp.o
+[5.184s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h enumexpandersbase.cpp -o enumexpandersbase.cpp.o
+[5.493s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h journalexception.cpp -o journalexception.cpp.o
+[5.555s] [ 67%] Built target xsens_mti_ros2_driver__py
+[5.569s] [ 69%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_py.dir/rosidl_generator_py/xsens_mti_ros2_driver/msg/_ship_motion_s.c.o
+[5.571s] [ 71%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_py.dir/rosidl_generator_py/xsens_mti_ros2_driver/msg/_xs_status_word_s.c.o
+[5.571s] [ 71%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_py.dir/rosidl_generator_py/xsens_mti_ros2_driver/msg/_gnss_sat_info_s.c.o
+[5.571s] [ 72%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_py.dir/rosidl_generator_py/xsens_mti_ros2_driver/msg/_gnss_pvt_s.c.o
+[5.693s] [ 74%] Linking C shared library rosidl_generator_py/xsens_mti_ros2_driver/libxsens_mti_ros2_driver__rosidl_generator_py.so
+[5.716s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h journalfile.cpp -o journalfile.cpp.o
+[5.721s] [ 74%] Built target xsens_mti_ros2_driver__rosidl_generator_py
+[5.741s] [ 77%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_introspection_c.c.o
+[5.741s] [ 77%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[5.741s] [ 77%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_c.c.o
+[5.837s] [ 79%] Linking C shared library rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.837s] [ 80%] Linking C shared library rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.845s] [ 81%] Linking C shared library rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.868s] [ 81%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c__pyext
+[5.869s] [ 81%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c__pyext
+[5.875s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h journaller.cpp -o journaller.cpp.o
+[5.880s] [ 81%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c__pyext
+[6.168s] [ 82%] Linking CXX static library libgtest.a
+[6.219s] [ 82%] Built target gtest
+[6.231s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h journalthreader.cpp -o journalthreader.cpp.o
+[6.474s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h stackdumper.cpp -o stackdumper.cpp.o
+[6.575s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h stackwalker.cpp -o stackwalker.cpp.o
+[6.611s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h stackwalker_linux.cpp -o stackwalker_linux.cpp.o
+[6.709s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h threading.cpp -o threading.cpp.o
+[6.928s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h xprintf.cpp -o xprintf.cpp.o
+[7.070s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h xsens_math_throw.cpp -o xsens_math_throw.cpp.o
+[7.257s] g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h xsens_threadpool.cpp -o xsens_threadpool.cpp.o
+[7.719s] cc -c -fPIC -I../ -include xscommon_config.h -include xstypes/xsens_compat.h fwupdate.c -o fwupdate.c.o
+[7.763s] cc -c -fPIC -I../ -include xscommon_config.h -include xstypes/xsens_compat.h xbus.c -o xbus.c.o
+[7.801s] cc -c -fPIC -I../ -include xscommon_config.h -include xstypes/xsens_compat.h xbusparser.c -o xbusparser.c.o
+[7.837s] ar rcs libxscommon.a additionalloggerbase.cpp.o consolelogger.cpp.o enumexpandersbase.cpp.o journalexception.cpp.o journalfile.cpp.o journaller.cpp.o journalthreader.cpp.o stackdumper.cpp.o stackwalker.cpp.o stackwalker_linux.cpp.o threading.cpp.o xprintf.cpp.o xsens_math_throw.cpp.o xsens_threadpool.cpp.o fwupdate.c.o xbus.c.o xbusparser.c.o
+[7.854s] make[4]: Leaving directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xscommon'
+[7.854s] make -C xscontroller -w
+[7.856s] make[4]: Entering directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xscontroller'
+[7.856s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER broadcastdevice.cpp -o broadcastdevice.cpp.o
+[8.262s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER callbackmanagerxda.cpp -o callbackmanagerxda.cpp.o
+[8.528s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER communicator.cpp -o communicator.cpp.o
+[8.878s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER communicatorfactory.cpp -o communicatorfactory.cpp.o
+[9.113s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER datalogger.cpp -o datalogger.cpp.o
+[9.305s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER datapacketcache.cpp -o datapacketcache.cpp.o
+[9.606s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER dataparser.cpp -o dataparser.cpp.o
+[9.946s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER datapoller.cpp -o datapoller.cpp.o
+[10.189s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER devicecommunicator.cpp -o devicecommunicator.cpp.o
+[10.556s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER devicefactory.cpp -o devicefactory.cpp.o
+[10.969s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER deviceredetector.cpp -o deviceredetector.cpp.o
+[11.251s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER dotdevice.cpp -o dotdevice.cpp.o
+[11.614s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER dummy.cpp -o dummy.cpp.o
+[11.806s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER enumerateusbdevices.cpp -o enumerateusbdevices.cpp.o
+[12.009s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER enumexpanders.cpp -o enumexpanders.cpp.o
+[12.217s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER iointerface.cpp -o iointerface.cpp.o
+[12.423s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER iointerfacefile.cpp -o iointerfacefile.cpp.o
+[12.685s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER messageextractor.cpp -o messageextractor.cpp.o
+[13.029s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER messageserializer.cpp -o messageserializer.cpp.o
+[13.265s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtbdatalogger.cpp -o mtbdatalogger.cpp.o
+[13.575s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtbfilecommunicator.cpp -o mtbfilecommunicator.cpp.o
+[14.017s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtdevice.cpp -o mtdevice.cpp.o
+[14.476s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mti3x0device.cpp -o mti3x0device.cpp.o
+[14.850s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mti6x0device.cpp -o mti6x0device.cpp.o
+[15.241s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mti7_mti8device.cpp -o mti7_mti8device.cpp.o
+[15.589s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mti8x0_mti9x0device.cpp -o mti8x0_mti9x0device.cpp.o
+[15.988s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtibasedevice.cpp -o mtibasedevice.cpp.o
+[16.397s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtigdevice.cpp -o mtigdevice.cpp.o
+[16.716s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtix00device.cpp -o mtix00device.cpp.o
+[17.125s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtix0device.cpp -o mtix0device.cpp.o
+[17.489s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtixdevice.cpp -o mtixdevice.cpp.o
+[17.857s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtthread.cpp -o mtthread.cpp.o
+[18.177s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER nmea_protocolhandler.cpp -o nmea_protocolhandler.cpp.o
+[18.477s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER packeterrorrateestimator.cpp -o packeterrorrateestimator.cpp.o
+[18.735s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER packetstamper.cpp -o packetstamper.cpp.o
+[19.056s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER protocolhandler.cpp -o protocolhandler.cpp.o
+[19.286s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER protocolmanager.cpp -o protocolmanager.cpp.o
+[19.589s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER proxycommunicator.cpp -o proxycommunicator.cpp.o
+[19.925s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER replymonitor.cpp -o replymonitor.cpp.o
+[20.236s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER replyobject.cpp -o replyobject.cpp.o
+[20.490s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER restorecommunication.cpp -o restorecommunication.cpp.o
+[20.820s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER scanner.cpp -o scanner.cpp.o
+[21.256s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER serialcommunicator.cpp -o serialcommunicator.cpp.o
+[21.632s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER serialinterface.cpp -o serialinterface.cpp.o
+[21.897s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER serialportcommunicator.cpp -o serialportcommunicator.cpp.o
+[22.229s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER streaminterface.cpp -o streaminterface.cpp.o
+[22.437s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER supportedsyncsettings.cpp -o supportedsyncsettings.cpp.o
+[22.705s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER udev.cpp -o udev.cpp.o
+[22.903s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER usbcommunicator.cpp -o usbcommunicator.cpp.o
+[23.244s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER usbinterface.cpp -o usbinterface.cpp.o
+[23.488s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xdacommunicatorfactory.cpp -o xdacommunicatorfactory.cpp.o
+[23.823s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xscontrol_def.cpp -o xscontrol_def.cpp.o
+[24.410s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xsdef.cpp -o xsdef.cpp.o
+[24.609s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xsdevice_def.cpp -o xsdevice_def.cpp.o
+[25.376s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xslibusb.cpp -o xslibusb.cpp.o
+[25.561s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xsscanner.cpp -o xsscanner.cpp.o
+[25.796s] g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xswinusb.cpp -o xswinusb.cpp.o
+[25.986s] cc -c -fPIC -I../ -include xscontrollerconfig.h synclinegmt.c -o synclinegmt.c.o
+[26.010s] cc -c -fPIC -I../ -include xscontrollerconfig.h synclinemk4.c -o synclinemk4.c.o
+[26.037s] cc -c -fPIC -I../ -include xscontrollerconfig.h xsconnectivitystate.c -o xsconnectivitystate.c.o
+[26.066s] cc -c -fPIC -I../ -include xscontrollerconfig.h xsdeviceconfiguration.c -o xsdeviceconfiguration.c.o
+[26.112s] cc -c -fPIC -I../ -include xscontrollerconfig.h xsdeviceptrarray.c -o xsdeviceptrarray.c.o
+[26.140s] cc -c -fPIC -I../ -include xscontrollerconfig.h xsdevicestate.c -o xsdevicestate.c.o
+[26.173s] cc -c -fPIC -I../ -include xscontrollerconfig.h xsrejectreason.c -o xsrejectreason.c.o
+[26.198s] cc -c -fPIC -I../ -include xscontrollerconfig.h xsusbhubinfo.c -o xsusbhubinfo.c.o
+[26.231s] ar rcs libxscontroller.a broadcastdevice.cpp.o callbackmanagerxda.cpp.o communicator.cpp.o communicatorfactory.cpp.o datalogger.cpp.o datapacketcache.cpp.o dataparser.cpp.o datapoller.cpp.o devicecommunicator.cpp.o devicefactory.cpp.o deviceredetector.cpp.o dotdevice.cpp.o dummy.cpp.o enumerateusbdevices.cpp.o enumexpanders.cpp.o iointerface.cpp.o iointerfacefile.cpp.o messageextractor.cpp.o messageserializer.cpp.o mtbdatalogger.cpp.o mtbfilecommunicator.cpp.o mtdevice.cpp.o mti3x0device.cpp.o mti6x0device.cpp.o mti7_mti8device.cpp.o mti8x0_mti9x0device.cpp.o mtibasedevice.cpp.o mtigdevice.cpp.o mtix00device.cpp.o mtix0device.cpp.o mtixdevice.cpp.o mtthread.cpp.o nmea_protocolhandler.cpp.o packeterrorrateestimator.cpp.o packetstamper.cpp.o protocolhandler.cpp.o protocolmanager.cpp.o proxycommunicator.cpp.o replymonitor.cpp.o replyobject.cpp.o restorecommunication.cpp.o scanner.cpp.o serialcommunicator.cpp.o serialinterface.cpp.o serialportcommunicator.cpp.o streaminterface.cpp.o supportedsyncsettings.cpp.o udev.cpp.o usbcommunicator.cpp.o usbinterface.cpp.o xdacommunicatorfactory.cpp.o xscontrol_def.cpp.o xsdef.cpp.o xsdevice_def.cpp.o xslibusb.cpp.o xsscanner.cpp.o xswinusb.cpp.o synclinegmt.c.o synclinemk4.c.o xsconnectivitystate.c.o xsdeviceconfiguration.c.o xsdeviceptrarray.c.o xsdevicestate.c.o xsrejectreason.c.o xsusbhubinfo.c.o
+[26.266s] make[4]: Leaving directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xscontroller'
+[26.266s] make[3]: Leaving directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic'
+[26.279s] [ 83%] No install step for 'xspublic'
+[26.300s] [ 85%] Completed 'xspublic'
+[26.326s] [ 85%] Built target xspublic
+[26.342s] [ 86%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/ntrip_util.cpp.o
+[26.342s] [ 87%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/xdacallback.cpp.o
+[26.342s] [ 88%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/main.cpp.o
+[26.343s] [ 90%] Building CXX object CMakeFiles/test_imu_publisher.dir/test/test_imu_publisher.cpp.o
+[26.343s] [ 91%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_diagnostics.cpp.o
+[26.344s] [ 92%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o
+[26.344s] [ 95%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_log_handler.cpp.o
+[26.344s] [ 95%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_time_handler.cpp.o
+[26.345s] [ 96%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/high_rate_interpolator.cpp.o
+[26.345s] [ 97%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_mti_lifecycle_node.cpp.o
+[32.636s] [ 98%] Linking CXX executable test_imu_publisher
+[32.768s] [ 98%] Built target test_imu_publisher
+[46.225s] [100%] Linking CXX executable xsens_mti_node
+[46.593s] [100%] Built target xsens_mti_node
+[46.605s] Invoked command in '/home/pedro/usv_ws/build/xsens_mti_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/pedro/usv_ws/install/nmea_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/usv_ws/install/nmea_msgs:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/pedro/usv_ws/install/nmea_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pedro/usv_ws/build/xsens_mti_ros2_driver -- -j22 -l22
+[46.607s] Invoking command in '/home/pedro/usv_ws/build/xsens_mti_ros2_driver': AMENT_PREFIX_PATH=/home/pedro/usv_ws/install/nmea_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/usv_ws/install/nmea_msgs:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/pedro/usv_ws/install/nmea_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pedro/usv_ws/build/xsens_mti_ros2_driver
+[46.615s] -- Install configuration: "Release"
+[46.615s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/rosidl_interfaces/xsens_mti_ros2_driver
+[46.615s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+[46.615s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+[46.615s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_c__visibility_control.h
+[46.615s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/ship_motion.h
+[46.615s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.h
+[46.616s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+[46.616s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.h
+[46.616s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.h
+[46.616s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.h
+[46.616s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__functions.c
+[46.616s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__functions.h
+[46.616s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__functions.c
+[46.617s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__functions.h
+[46.617s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__struct.h
+[46.617s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.h
+[46.617s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.c
+[46.617s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.h
+[46.617s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__struct.h
+[46.617s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__struct.h
+[46.617s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__functions.h
+[46.617s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__functions.c
+[46.617s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.h
+[46.617s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/gnss_pvt.h
+[46.617s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/gnss_sat_info.h
+[46.618s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.sh
+[46.618s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.dsv
+[46.618s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_c.so
+[46.618s] -- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_c.so" to ""
+[46.618s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+[46.618s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+[46.618s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+[46.618s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__rosidl_typesupport_fastrtps_c.h
+[46.618s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__rosidl_typesupport_fastrtps_c.h
+[46.618s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_c.h
+[46.618s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__rosidl_typesupport_fastrtps_c.h
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so
+[46.619s] -- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so" to ""
+[46.619s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+[46.619s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/ship_motion.hpp
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.hpp
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_cpp__visibility_control.hpp
+[46.619s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__traits.hpp
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__builder.hpp
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__struct.hpp
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__traits.hpp
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__struct.hpp
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.hpp
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.hpp
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.hpp
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__traits.hpp
+[46.619s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__traits.hpp
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__struct.hpp
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__builder.hpp
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.hpp
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.hpp
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__builder.hpp
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__builder.hpp
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/gnss_sat_info.hpp
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/gnss_pvt.hpp
+[46.620s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+[46.620s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[46.620s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__rosidl_typesupport_fastrtps_cpp.hpp
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__rosidl_typesupport_fastrtps_cpp.hpp
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/dds_fastrtps
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_cpp.hpp
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__rosidl_typesupport_fastrtps_cpp.hpp
+[46.620s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so
+[46.620s] -- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so" to ""
+[46.620s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+[46.621s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+[46.621s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+[46.621s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.c
+[46.621s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.c
+[46.621s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.c
+[46.621s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__rosidl_typesupport_introspection_c.h
+[46.621s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.c
+[46.621s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_c.h
+[46.621s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__rosidl_typesupport_introspection_c.h
+[46.621s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__rosidl_typesupport_introspection_c.h
+[46.621s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[46.621s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so
+[46.621s] -- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so" to ""
+[46.622s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_c.so
+[46.622s] -- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_c.so" to ""
+[46.622s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+[46.622s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+[46.622s] -- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+[46.622s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.cpp
+[46.622s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.cpp
+[46.622s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.cpp
+[46.622s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__rosidl_typesupport_introspection_cpp.hpp
+[46.622s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.cpp
+[46.622s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_cpp.hpp
+[46.623s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__rosidl_typesupport_introspection_cpp.hpp
+[46.623s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__rosidl_typesupport_introspection_cpp.hpp
+[46.623s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so
+[46.623s] -- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so" to ""
+[46.623s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so
+[46.623s] -- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so" to ""
+[46.623s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.sh
+[46.623s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.dsv
+[46.623s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info
+[46.623s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/PKG-INFO
+[46.624s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/top_level.txt
+[46.624s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/SOURCES.txt
+[46.624s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/dependency_links.txt
+[46.624s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver
+[46.624s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[46.624s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/__init__.py
+[46.624s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_introspection_c.c
+[46.624s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/libxsens_mti_ros2_driver__rosidl_generator_py.so
+[46.624s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg
+[46.624s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/__init__.py
+[46.624s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_pvt.py
+[46.624s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_pvt_s.c
+[46.625s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_sat_info_s.c
+[46.625s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_ship_motion.py
+[46.625s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word.py
+[46.625s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_sat_info.py
+[46.625s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word_s.c
+[46.625s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_ship_motion_s.c
+[46.625s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[46.625s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_c.c
+[46.625s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[46.625s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[46.655s] Listing '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver'...
+[46.655s] Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/__init__.py'...
+[46.655s] Listing '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg'...
+[46.655s] Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/__init__.py'...
+[46.655s] Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_pvt.py'...
+[46.656s] Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_sat_info.py'...
+[46.656s] Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_ship_motion.py'...
+[46.656s] Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word.py'...
+[46.658s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[46.658s] -- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[46.658s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[46.659s] -- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[46.659s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[46.659s] -- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[46.659s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_py.so
+[46.660s] -- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_py.so" to ""
+[46.660s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.idl
+[46.660s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/ShipMotion.idl
+[46.660s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/GnssPvt.idl
+[46.660s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/GnssSatInfo.idl
+[46.660s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.msg
+[46.660s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/ShipMotion.msg
+[46.660s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/GnssPvt.msg
+[46.660s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/GnssSatInfo.msg
+[46.661s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node
+[46.665s] -- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node" to ""
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/xsens_mti_node.launch.py
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/display.launch.py
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param/xsens_mti_node_mti320.yaml
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param/xsens_mti_node.yaml
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/rviz
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/rviz/display.rviz
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.urdf
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.urdf
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.stl
+[46.665s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.stl
+[46.667s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.urdf
+[46.667s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.stl
+[46.670s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/package_run_dependencies/xsens_mti_ros2_driver
+[46.670s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/parent_prefix_path/xsens_mti_ros2_driver
+[46.670s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.sh
+[46.670s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.dsv
+[46.670s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.sh
+[46.670s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.dsv
+[46.670s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.bash
+[46.670s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.sh
+[46.670s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.zsh
+[46.670s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.dsv
+[46.670s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.dsv
+[46.670s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/packages/xsens_mti_ros2_driver
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport-release.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport-release.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cppExport.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport-release.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport-release.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport-release.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport-release.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport-release.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake-extras.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.671s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.672s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[46.672s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_targets-extras.cmake
+[46.672s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[46.672s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[46.672s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig.cmake
+[46.672s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig-version.cmake
+[46.672s] -- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.xml
+[46.673s] Invoked command in '/home/pedro/usv_ws/build/xsens_mti_ros2_driver' returned '0': AMENT_PREFIX_PATH=/home/pedro/usv_ws/install/nmea_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pedro/usv_ws/install/nmea_msgs:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble LD_LIBRARY_PATH=/home/pedro/usv_ws/install/nmea_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pedro/usv_ws/build/xsens_mti_ros2_driver

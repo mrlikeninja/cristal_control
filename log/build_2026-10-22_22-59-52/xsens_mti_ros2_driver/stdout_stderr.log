@@ -1,0 +1,281 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found nmea_msgs: 2.0.0 (/opt/ros/humble/share/nmea_msgs/cmake)
+-- Found mavros_msgs: 2.14.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Detected ROS_DISTRO: humble
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pedro/usv_ws/build/xsens_mti_ros2_driver
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target test_local_enu[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target xsens_mti_ros2_driver__rosidl_generator_c[0m
+[  9%] Built target xspublic
+[ 12%] Built target test_local_enu
+[ 14%] Built target gtest_main
+[ 22%] Built target xsens_mti_ros2_driver__rosidl_generator_c
+[ 23%] Built target xsens_mti_ros2_driver__cpp
+[ 25%] Built target gtest
+[ 25%] Built target ament_cmake_python_copy_xsens_mti_ros2_driver
+[35m[1mConsolidate compiler generated dependencies of target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target xsens_mti_ros2_driver__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target xsens_mti_ros2_driver__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp[0m
+[ 33%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c
+[ 40%] Built target xsens_mti_ros2_driver__rosidl_typesupport_cpp
+[ 48%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp
+[ 55%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c
+[ 62%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c
+[ 70%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp
+[ 70%] Built target xsens_mti_ros2_driver
+[35m[1mConsolidate compiler generated dependencies of target test_imu_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target xsens_mti_node[0m
+[ 71%] Built target xsens_mti_ros2_driver__py
+[ 74%] Built target test_imu_publisher
+[35m[1mConsolidate compiler generated dependencies of target xsens_mti_ros2_driver__rosidl_generator_py[0m
+[ 80%] Built target xsens_mti_ros2_driver__rosidl_generator_py
+[ 81%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_log_handler.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_time_handler.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/main.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/high_rate_interpolator.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdacallback.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_mti_lifecycle_node.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/ntrip_util.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target xsens_mti_ros2_driver__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c__pyext[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_diagnostics.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 93%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c__pyext
+[ 96%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c__pyext
+[ 98%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing xsens_mti_ros2_driver.egg-info/PKG-INFO
+writing dependency_links to xsens_mti_ros2_driver.egg-info/dependency_links.txt
+writing top-level names to xsens_mti_ros2_driver.egg-info/top_level.txt
+reading manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+[ 98%] Built target ament_cmake_python_build_xsens_mti_ros2_driver_egg
+[100%] [32m[1mLinking CXX executable xsens_mti_node[0m
+[100%] Built target xsens_mti_node
+-- Install configuration: "Release"
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/rosidl_interfaces/xsens_mti_ros2_driver
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/ship_motion.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__functions.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__functions.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__functions.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__functions.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__struct.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__struct.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__struct.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__functions.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__functions.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/gnss_pvt.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/gnss_sat_info.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.sh
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.dsv
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_c.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/ship_motion.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__traits.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__builder.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__struct.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__traits.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__struct.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__traits.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__traits.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__struct.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__builder.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__builder.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__builder.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/gnss_sat_info.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/gnss_pvt.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/dds_fastrtps
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_c.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.cpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.cpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.cpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.cpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.sh
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.dsv
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/PKG-INFO
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/top_level.txt
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/__init__.py
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/libxsens_mti_ros2_driver__rosidl_generator_py.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/__init__.py
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_pvt.py
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_pvt_s.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_sat_info_s.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_ship_motion.py
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word.py
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_sat_info.py
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word_s.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_ship_motion_s.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_c.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+Listing '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver'...
+Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/__init__.py'...
+Listing '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg'...
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_py.so
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.idl
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/ShipMotion.idl
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/GnssPvt.idl
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/GnssSatInfo.idl
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.msg
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/ShipMotion.msg
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/GnssPvt.msg
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/GnssSatInfo.msg
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node
+-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node" to ""
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/xsens_mti_node.launch.py
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/display.launch.py
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param/xsens_mti_node_mti320.yaml
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param/xsens_mti_node.yaml
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/rviz
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/rviz/display.rviz
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.urdf
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.urdf
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.stl
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.stl
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.urdf
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.stl
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/package_run_dependencies/xsens_mti_ros2_driver
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/parent_prefix_path/xsens_mti_ros2_driver
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.sh
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.sh
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.dsv
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.bash
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.sh
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.zsh
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.dsv
+-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.dsv
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/packages/xsens_mti_ros2_driver
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport-release.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport-release.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport-release.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport-release.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport-release.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig-version.cmake
+-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.xml

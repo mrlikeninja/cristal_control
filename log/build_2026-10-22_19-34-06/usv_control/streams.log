@@ -1,0 +1,37 @@
+[0.349s] Invoking command in '/home/pedro/usv_ws/src/usv_control': PYTHONPATH=/home/pedro/usv_ws/build/usv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/usv_control build --build-base /home/pedro/usv_ws/build/usv_control/build install --record /home/pedro/usv_ws/build/usv_control/install.log --single-version-externally-managed install_data
+[0.492s] running egg_info
+[0.492s] creating ../../build/usv_control/usv_control.egg-info
+[0.492s] writing ../../build/usv_control/usv_control.egg-info/PKG-INFO
+[0.493s] writing dependency_links to ../../build/usv_control/usv_control.egg-info/dependency_links.txt
+[0.493s] writing entry points to ../../build/usv_control/usv_control.egg-info/entry_points.txt
+[0.493s] writing requirements to ../../build/usv_control/usv_control.egg-info/requires.txt
+[0.493s] writing top-level names to ../../build/usv_control/usv_control.egg-info/top_level.txt
+[0.493s] writing manifest file '../../build/usv_control/usv_control.egg-info/SOURCES.txt'
+[0.493s] reading manifest file '../../build/usv_control/usv_control.egg-info/SOURCES.txt'
+[0.494s] writing manifest file '../../build/usv_control/usv_control.egg-info/SOURCES.txt'
+[0.494s] running build
+[0.494s] running build_py
+[0.494s] creating /home/pedro/usv_ws/build/usv_control/build
+[0.494s] creating /home/pedro/usv_ws/build/usv_control/build/lib
+[0.494s] creating /home/pedro/usv_ws/build/usv_control/build/lib/usv_control
+[0.494s] copying usv_control/__init__.py -> /home/pedro/usv_ws/build/usv_control/build/lib/usv_control
+[0.494s] copying usv_control/cmd_vel_test.py -> /home/pedro/usv_ws/build/usv_control/build/lib/usv_control
+[0.494s] running install
+[0.494s] running install_lib
+[0.494s] creating /home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages/usv_control
+[0.494s] copying /home/pedro/usv_ws/build/usv_control/build/lib/usv_control/__init__.py -> /home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages/usv_control
+[0.494s] copying /home/pedro/usv_ws/build/usv_control/build/lib/usv_control/cmd_vel_test.py -> /home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages/usv_control
+[0.495s] byte-compiling /home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages/usv_control/__init__.py to __init__.cpython-310.pyc
+[0.495s] byte-compiling /home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages/usv_control/cmd_vel_test.py to cmd_vel_test.cpython-310.pyc
+[0.495s] running install_data
+[0.495s] creating /home/pedro/usv_ws/install/usv_control/share/ament_index
+[0.495s] creating /home/pedro/usv_ws/install/usv_control/share/ament_index/resource_index
+[0.495s] creating /home/pedro/usv_ws/install/usv_control/share/ament_index/resource_index/packages
+[0.495s] copying resource/usv_control -> /home/pedro/usv_ws/install/usv_control/share/ament_index/resource_index/packages
+[0.495s] copying package.xml -> /home/pedro/usv_ws/install/usv_control/share/usv_control
+[0.495s] running install_egg_info
+[0.496s] Copying ../../build/usv_control/usv_control.egg-info to /home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages/usv_control-0.0.0-py3.10.egg-info
+[0.496s] running install_scripts
+[0.507s] Installing cmd_vel_test script to /home/pedro/usv_ws/install/usv_control/lib/usv_control
+[0.507s] writing list of installed files to '/home/pedro/usv_ws/build/usv_control/install.log'
+[0.521s] Invoked command in '/home/pedro/usv_ws/src/usv_control' returned '0': PYTHONPATH=/home/pedro/usv_ws/build/usv_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pedro/usv_ws/install/usv_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/usv_control build --build-base /home/pedro/usv_ws/build/usv_control/build install --record /home/pedro/usv_ws/build/usv_control/install.log --single-version-externally-managed install_data

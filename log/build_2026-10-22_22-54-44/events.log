@@ -1,0 +1,1248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000123] (-) JobUnselected: {'identifier': 'ntrip'}
+[0.000172] (-) JobUnselected: {'identifier': 'usv_control'}
+[0.000320] (-) JobUnselected: {'identifier': 'usv_description'}
+[0.000346] (-) JobUnselected: {'identifier': 'usv_gazebo'}
+[0.000379] (nmea_msgs) JobQueued: {'identifier': 'nmea_msgs', 'dependencies': OrderedDict()}
+[0.000415] (xsens_mti_ros2_driver) JobQueued: {'identifier': 'xsens_mti_ros2_driver', 'dependencies': OrderedDict([('nmea_msgs', '/home/pedro/usv_ws/install/nmea_msgs')])}
+[0.000457] (nmea_msgs) JobStarted: {'identifier': 'nmea_msgs'}
+[0.005651] (nmea_msgs) JobProgress: {'identifier': 'nmea_msgs', 'progress': 'cmake'}
+[0.006312] (nmea_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/pedro/usv_ws/src/nmea_msgs_stub', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/pedro/usv_ws/install/nmea_msgs'], 'cwd': '/home/pedro/usv_ws/build/nmea_msgs', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/pedro/ardupilot_gazebo/build'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('OPENCODE_DISABLE_EMBEDDED_WEB_UI', 'true'), ('no_proxy', '127.0.0.1,localhost,::1'), ('AI_AGENT', 'opencode'), ('OPENCODE_SESSION_ID', 'ses_e9a809ff5ffeDhk05j4xO25tsU'), ('USER', 'pedro'), ('LC_TIME', 'pt_PT.UTF-8'), ('AGENT', '1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('CHROME_DESKTOP', 'ai.opencode.desktop.desktop'), ('OLDPWD', '/home/pedro/usv_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', '127.0.0.1,localhost,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/ai.opencode.desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1919'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('SYSTEMD_EXEC_PID', '2264'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5206'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pedro'), ('OPENCODE_CLIENT', 'desktop'), ('JOURNAL_STREAM', '8:15062'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('OPENCODE_TERMINAL', '1'), ('USERNAME', 'pedro'), ('STM32_PRG_PATH', '/home/pedro/Desktop/STM32CubeProg/binexport'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OPENCODE', '1'), ('PATH', '/home/pedro/.local/bin:/opt/ros/humble/bin:/home/pedro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pedro/ardupilot/Tools/autotest:/home/pedro/.local/bin:/home/pedro/.local/bin:/home/pedro/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/pedro-ThinkPad-P16s-Gen-3:@/tmp/.ICE-unix/2240,unix/pedro-ThinkPad-P16s-Gen-3:/tmp/.ICE-unix/2240'), ('INVOCATION_ID', '335fbe013a6647fba86e64e01a43fc0f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('OPENCODE_EXPERIMENTAL_FILEWATCHER', 'true'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('OPENCODE_EXPERIMENTAL_ICON_DISCOVERY', 'true'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/usv_ws/build/nmea_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/pedro/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/ros2_ws/install/rover_cmd_vel_pub/lib/python3.10/site-packages:/home/pedro/ros2_ws/install/cmd_vel_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble')]), 'shell': False}
+[0.053348] (nmea_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.088498] (nmea_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.092779] (nmea_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099491] (-) TimerEvent: {}
+[0.149458] (nmea_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.155105] (nmea_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.155242] (nmea_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.155403] (nmea_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.157002] (nmea_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199627] (-) TimerEvent: {}
+[0.222657] (nmea_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.227640] (nmea_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.227787] (nmea_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.228020] (nmea_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.229489] (nmea_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299773] (-) TimerEvent: {}
+[0.349777] (nmea_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.399946] (-) TimerEvent: {}
+[0.415886] (nmea_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.418635] (nmea_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.424378] (nmea_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.446882] (nmea_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.464622] (nmea_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.500068] (-) TimerEvent: {}
+[0.600423] (-) TimerEvent: {}
+[0.647722] (nmea_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700546] (-) TimerEvent: {}
+[0.796751] (nmea_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.800641] (-) TimerEvent: {}
+[0.900855] (-) TimerEvent: {}
+[0.991750] (nmea_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.001237] (-) TimerEvent: {}
+[1.008462] (nmea_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.009338] (nmea_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.025269] (nmea_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.025505] (nmea_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.025575] (nmea_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.025619] (nmea_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.041800] (nmea_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.071640] (nmea_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.087920] (nmea_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.094036] (nmea_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/pedro/usv_ws/build/nmea_msgs\n'}
+[1.098957] (nmea_msgs) CommandEnded: {'returncode': 0}
+[1.099824] (nmea_msgs) JobProgress: {'identifier': 'nmea_msgs', 'progress': 'build'}
+[1.101207] (nmea_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pedro/usv_ws/build/nmea_msgs', '--', '-j22', '-l22'], 'cwd': '/home/pedro/usv_ws/build/nmea_msgs', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/pedro/ardupilot_gazebo/build'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('OPENCODE_DISABLE_EMBEDDED_WEB_UI', 'true'), ('no_proxy', '127.0.0.1,localhost,::1'), ('AI_AGENT', 'opencode'), ('OPENCODE_SESSION_ID', 'ses_e9a809ff5ffeDhk05j4xO25tsU'), ('USER', 'pedro'), ('LC_TIME', 'pt_PT.UTF-8'), ('AGENT', '1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('CHROME_DESKTOP', 'ai.opencode.desktop.desktop'), ('OLDPWD', '/home/pedro/usv_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', '127.0.0.1,localhost,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/ai.opencode.desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1919'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('SYSTEMD_EXEC_PID', '2264'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5206'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pedro'), ('OPENCODE_CLIENT', 'desktop'), ('JOURNAL_STREAM', '8:15062'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('OPENCODE_TERMINAL', '1'), ('USERNAME', 'pedro'), ('STM32_PRG_PATH', '/home/pedro/Desktop/STM32CubeProg/binexport'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OPENCODE', '1'), ('PATH', '/home/pedro/.local/bin:/opt/ros/humble/bin:/home/pedro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pedro/ardupilot/Tools/autotest:/home/pedro/.local/bin:/home/pedro/.local/bin:/home/pedro/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/pedro-ThinkPad-P16s-Gen-3:@/tmp/.ICE-unix/2240,unix/pedro-ThinkPad-P16s-Gen-3:/tmp/.ICE-unix/2240'), ('INVOCATION_ID', '335fbe013a6647fba86e64e01a43fc0f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('OPENCODE_EXPERIMENTAL_FILEWATCHER', 'true'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('OPENCODE_EXPERIMENTAL_ICON_DISCOVERY', 'true'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/usv_ws/build/nmea_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/pedro/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/ros2_ws/install/rover_cmd_vel_pub/lib/python3.10/site-packages:/home/pedro/ros2_ws/install/cmd_vel_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble')]), 'shell': False}
+[1.101408] (-) TimerEvent: {}
+[1.133197] (nmea_msgs) StdoutLine: {'line': b'[  3%] Generating C code for ROS interfaces\n'}
+[1.142022] (nmea_msgs) StdoutLine: {'line': b'[  6%] Generating C++ code for ROS interfaces\n'}
+[1.150433] (nmea_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_nmea_msgs\n'}
+[1.202002] (-) TimerEvent: {}
+[1.302224] (-) TimerEvent: {}
+[1.308537] (nmea_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.308797] (nmea_msgs) StdoutLine: {'line': b'creating nmea_msgs.egg-info\n'}
+[1.308910] (nmea_msgs) StdoutLine: {'line': b'writing nmea_msgs.egg-info/PKG-INFO\n'}
+[1.309001] (nmea_msgs) StdoutLine: {'line': b'writing dependency_links to nmea_msgs.egg-info/dependency_links.txt\n'}
+[1.309092] (nmea_msgs) StdoutLine: {'line': b'writing top-level names to nmea_msgs.egg-info/top_level.txt\n'}
+[1.309192] (nmea_msgs) StdoutLine: {'line': b"writing manifest file 'nmea_msgs.egg-info/SOURCES.txt'\n"}
+[1.309250] (nmea_msgs) StdoutLine: {'line': b'[  6%] Built target nmea_msgs__cpp\n'}
+[1.310375] (nmea_msgs) StdoutLine: {'line': b"reading manifest file 'nmea_msgs.egg-info/SOURCES.txt'\n"}
+[1.310563] (nmea_msgs) StdoutLine: {'line': b"writing manifest file 'nmea_msgs.egg-info/SOURCES.txt'\n"}
+[1.316046] (nmea_msgs) StdoutLine: {'line': b'[  9%] Building C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/sentence__functions.c.o\n'}
+[1.317041] (nmea_msgs) StdoutLine: {'line': b'[ 12%] Generating C++ introspection for ROS interfaces\n'}
+[1.318948] (nmea_msgs) StdoutLine: {'line': b'[ 19%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[1.319124] (nmea_msgs) StdoutLine: {'line': b'[ 19%] Generating C++ type support dispatch for ROS interfaces\n'}
+[1.332232] (nmea_msgs) StdoutLine: {'line': b'[ 19%] Built target ament_cmake_python_build_nmea_msgs_egg\n'}
+[1.388988] (nmea_msgs) StdoutLine: {'line': b'[ 22%] Linking C shared library libnmea_msgs__rosidl_generator_c.so\n'}
+[1.402328] (-) TimerEvent: {}
+[1.424572] (nmea_msgs) StdoutLine: {'line': b'[ 22%] Built target nmea_msgs__rosidl_generator_c\n'}
+[1.433903] (nmea_msgs) StdoutLine: {'line': b'[ 32%] Generating C introspection for ROS interfaces\n'}
+[1.434127] (nmea_msgs) StdoutLine: {'line': b'[ 32%] Generating C type support dispatch for ROS interfaces\n'}
+[1.434209] (nmea_msgs) StdoutLine: {'line': b'[ 32%] Generating C type support for eProsima Fast-RTPS\n'}
+[1.462611] (nmea_msgs) StdoutLine: {'line': b'[ 35%] Building CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/sentence__type_support.cpp.o\n'}
+[1.473362] (nmea_msgs) StdoutLine: {'line': b'[ 38%] Building CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/sentence__type_support.cpp.o\n'}
+[1.502494] (-) TimerEvent: {}
+[1.511288] (nmea_msgs) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/sentence__type_support.cpp.o\n'}
+[1.576124] (nmea_msgs) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/sentence__type_support.cpp.o\n'}
+[1.599905] (nmea_msgs) StdoutLine: {'line': b'[ 48%] Building C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/sentence__type_support.c.o\n'}
+[1.600308] (nmea_msgs) StdoutLine: {'line': b'[ 51%] Linking CXX shared library libnmea_msgs__rosidl_typesupport_c.so\n'}
+[1.602615] (-) TimerEvent: {}
+[1.607234] (nmea_msgs) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/sentence__type_support_c.cpp.o\n'}
+[1.624466] (nmea_msgs) StdoutLine: {'line': b'[ 58%] Linking C shared library libnmea_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.637632] (nmea_msgs) StdoutLine: {'line': b'[ 58%] Built target nmea_msgs__rosidl_typesupport_c\n'}
+[1.653897] (nmea_msgs) StdoutLine: {'line': b'[ 58%] Built target nmea_msgs__rosidl_typesupport_introspection_c\n'}
+[1.679301] (nmea_msgs) StdoutLine: {'line': b'[ 61%] Linking CXX shared library libnmea_msgs__rosidl_typesupport_cpp.so\n'}
+[1.702757] (-) TimerEvent: {}
+[1.708335] (nmea_msgs) StdoutLine: {'line': b'[ 64%] Linking CXX shared library libnmea_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.721826] (nmea_msgs) StdoutLine: {'line': b'[ 64%] Built target nmea_msgs__rosidl_typesupport_cpp\n'}
+[1.724947] (nmea_msgs) StdoutLine: {'line': b'[ 67%] Linking CXX shared library libnmea_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.759806] (nmea_msgs) StdoutLine: {'line': b'[ 67%] Built target nmea_msgs__rosidl_typesupport_introspection_cpp\n'}
+[1.773386] (nmea_msgs) StdoutLine: {'line': b'[ 67%] Built target nmea_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[1.802870] (-) TimerEvent: {}
+[1.818992] (nmea_msgs) StdoutLine: {'line': b'[ 70%] Linking CXX shared library libnmea_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.864780] (nmea_msgs) StdoutLine: {'line': b'[ 70%] Built target nmea_msgs__rosidl_typesupport_fastrtps_c\n'}
+[1.881135] (nmea_msgs) StdoutLine: {'line': b'[ 70%] Built target nmea_msgs\n'}
+[1.897240] (nmea_msgs) StdoutLine: {'line': b'[ 74%] Generating Python code for ROS interfaces\n'}
+[1.903003] (-) TimerEvent: {}
+[2.003200] (-) TimerEvent: {}
+[2.076399] (nmea_msgs) StdoutLine: {'line': b'[ 74%] Built target nmea_msgs__py\n'}
+[2.095061] (nmea_msgs) StdoutLine: {'line': b'[ 77%] Building C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_sentence_s.c.o\n'}
+[2.103338] (-) TimerEvent: {}
+[2.180798] (nmea_msgs) StdoutLine: {'line': b'[ 80%] Linking C shared library rosidl_generator_py/nmea_msgs/libnmea_msgs__rosidl_generator_py.so\n'}
+[2.203478] (-) TimerEvent: {}
+[2.211676] (nmea_msgs) StdoutLine: {'line': b'[ 80%] Built target nmea_msgs__rosidl_generator_py\n'}
+[2.229241] (nmea_msgs) StdoutLine: {'line': b'[ 83%] Building C object CMakeFiles/nmea_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_c.c.o\n'}
+[2.229943] (nmea_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[2.230030] (nmea_msgs) StdoutLine: {'line': b'[ 90%] Building C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[2.303584] (-) TimerEvent: {}
+[2.303981] (nmea_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/nmea_msgs/nmea_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.304141] (nmea_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/nmea_msgs/nmea_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.304213] (nmea_msgs) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/nmea_msgs/nmea_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.332842] (nmea_msgs) StdoutLine: {'line': b'[100%] Built target nmea_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[2.340127] (nmea_msgs) StdoutLine: {'line': b'[100%] Built target nmea_msgs__rosidl_typesupport_c__pyext\n'}
+[2.342401] (nmea_msgs) StdoutLine: {'line': b'[100%] Built target nmea_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.353624] (nmea_msgs) CommandEnded: {'returncode': 0}
+[2.354420] (nmea_msgs) JobProgress: {'identifier': 'nmea_msgs', 'progress': 'install'}
+[2.362605] (nmea_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pedro/usv_ws/build/nmea_msgs'], 'cwd': '/home/pedro/usv_ws/build/nmea_msgs', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/pedro/ardupilot_gazebo/build'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('OPENCODE_DISABLE_EMBEDDED_WEB_UI', 'true'), ('no_proxy', '127.0.0.1,localhost,::1'), ('AI_AGENT', 'opencode'), ('OPENCODE_SESSION_ID', 'ses_e9a809ff5ffeDhk05j4xO25tsU'), ('USER', 'pedro'), ('LC_TIME', 'pt_PT.UTF-8'), ('AGENT', '1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('CHROME_DESKTOP', 'ai.opencode.desktop.desktop'), ('OLDPWD', '/home/pedro/usv_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', '127.0.0.1,localhost,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/ai.opencode.desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1919'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('SYSTEMD_EXEC_PID', '2264'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5206'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pedro'), ('OPENCODE_CLIENT', 'desktop'), ('JOURNAL_STREAM', '8:15062'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('OPENCODE_TERMINAL', '1'), ('USERNAME', 'pedro'), ('STM32_PRG_PATH', '/home/pedro/Desktop/STM32CubeProg/binexport'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OPENCODE', '1'), ('PATH', '/home/pedro/.local/bin:/opt/ros/humble/bin:/home/pedro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pedro/ardupilot/Tools/autotest:/home/pedro/.local/bin:/home/pedro/.local/bin:/home/pedro/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/pedro-ThinkPad-P16s-Gen-3:@/tmp/.ICE-unix/2240,unix/pedro-ThinkPad-P16s-Gen-3:/tmp/.ICE-unix/2240'), ('INVOCATION_ID', '335fbe013a6647fba86e64e01a43fc0f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('OPENCODE_EXPERIMENTAL_FILEWATCHER', 'true'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('OPENCODE_EXPERIMENTAL_ICON_DISCOVERY', 'true'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/usv_ws/build/nmea_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/pedro/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/ros2_ws/install/rover_cmd_vel_pub/lib/python3.10/site-packages:/home/pedro/ros2_ws/install/cmd_vel_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble')]), 'shell': False}
+[2.370809] (nmea_msgs) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.371056] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/ament_index/resource_index/rosidl_interfaces/nmea_msgs\n'}
+[2.371193] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs\n'}
+[2.371324] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg\n'}
+[2.371431] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.371514] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/sentence.h\n'}
+[2.371574] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail\n'}
+[2.371630] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__functions.c\n'}
+[2.371787] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__struct.h\n'}
+[2.371860] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__functions.h\n'}
+[2.371935] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__type_support.h\n'}
+[2.372025] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/environment/library_path.sh\n'}
+[2.372138] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/environment/library_path.dsv\n'}
+[2.372230] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_generator_c.so\n'}
+[2.372310] (nmea_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_generator_c.so" to ""\n'}
+[2.372398] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs\n'}
+[2.372470] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg\n'}
+[2.372626] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail\n'}
+[2.372750] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__rosidl_typesupport_fastrtps_c.h\n'}
+[2.372910] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.372968] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.373023] (nmea_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.373173] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs\n'}
+[2.373256] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg\n'}
+[2.373312] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail\n'}
+[2.373396] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__type_support.c\n'}
+[2.373451] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__rosidl_typesupport_introspection_c.h\n'}
+[2.373535] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.373643] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.373798] (nmea_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.373863] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_c.so\n'}
+[2.373954] (nmea_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_c.so" to ""\n'}
+[2.374059] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs\n'}
+[2.374169] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg\n'}
+[2.374284] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.374361] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/sentence.hpp\n'}
+[2.374416] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail\n'}
+[2.374470] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__type_support.hpp\n'}
+[2.374519] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__builder.hpp\n'}
+[2.374547] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__struct.hpp\n'}
+[2.374574] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__traits.hpp\n'}
+[2.374602] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs\n'}
+[2.374628] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg\n'}
+[2.374655] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.374692] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail\n'}
+[2.374719] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.374747] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/dds_fastrtps\n'}
+[2.374774] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.374802] (nmea_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.374833] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs\n'}
+[2.374860] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg\n'}
+[2.374887] (nmea_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail\n'}
+[2.374914] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.374941] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__type_support.cpp\n'}
+[2.374968] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.374999] (nmea_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.375027] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_cpp.so\n'}
+[2.375055] (nmea_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[2.375081] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/environment/pythonpath.sh\n'}
+[2.375108] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/environment/pythonpath.dsv\n'}
+[2.375135] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs-2.0.0-py3.10.egg-info\n'}
+[2.375162] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs-2.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.375189] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs-2.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.375216] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs-2.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.375243] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs-2.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.375271] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs\n'}
+[2.375300] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.375327] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.375354] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.375382] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.375409] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/__init__.py\n'}
+[2.375437] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg\n'}
+[2.375464] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/__init__.py\n'}
+[2.375495] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_sentence_s.c\n'}
+[2.375522] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_sentence.py\n'}
+[2.375550] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/libnmea_msgs__rosidl_generator_py.so\n'}
+[2.375576] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.375604] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.398718] (nmea_msgs) StdoutLine: {'line': b"Listing '/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs'...\n"}
+[2.398861] (nmea_msgs) StdoutLine: {'line': b"Compiling '/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/__init__.py'...\n"}
+[2.398923] (nmea_msgs) StdoutLine: {'line': b"Listing '/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg'...\n"}
+[2.398980] (nmea_msgs) StdoutLine: {'line': b"Compiling '/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/__init__.py'...\n"}
+[2.399034] (nmea_msgs) StdoutLine: {'line': b"Compiling '/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_sentence.py'...\n"}
+[2.401341] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.401468] (nmea_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.401580] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.401700] (nmea_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.401812] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.401934] (nmea_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.401992] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_generator_py.so\n'}
+[2.402117] (nmea_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/nmea_msgs/lib/libnmea_msgs__rosidl_generator_py.so" to ""\n'}
+[2.402178] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/msg/Sentence.idl\n'}
+[2.402728] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/msg/Sentence.msg\n'}
+[2.403235] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/ament_index/resource_index/package_run_dependencies/nmea_msgs\n'}
+[2.403429] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/ament_index/resource_index/parent_prefix_path/nmea_msgs\n'}
+[2.403500] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/environment/ament_prefix_path.sh\n'}
+[2.403557] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/environment/ament_prefix_path.dsv\n'}
+[2.403776] (-) TimerEvent: {}
+[2.403832] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/environment/path.sh\n'}
+[2.403959] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/environment/path.dsv\n'}
+[2.404106] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/local_setup.bash\n'}
+[2.404144] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/local_setup.sh\n'}
+[2.404181] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/local_setup.zsh\n'}
+[2.404218] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/local_setup.dsv\n'}
+[2.404253] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/package.dsv\n'}
+[2.404290] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/ament_index/resource_index/packages/nmea_msgs\n'}
+[2.404326] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_cExport.cmake\n'}
+[2.404365] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_cExport-release.cmake\n'}
+[2.404434] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.404469] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[2.404503] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.404536] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[2.404569] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.404603] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_cExport-release.cmake\n'}
+[2.404637] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.404678] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.404715] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[2.404751] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.404785] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[2.404819] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.404853] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_cppExport-release.cmake\n'}
+[2.404891] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.404926] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_pyExport-release.cmake\n'}
+[2.404965] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.404998] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.405032] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.405066] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.405099] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.405131] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.405165] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.405199] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgsConfig.cmake\n'}
+[2.405235] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgsConfig-version.cmake\n'}
+[2.405272] (nmea_msgs) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/package.xml\n'}
+[2.405722] (nmea_msgs) CommandEnded: {'returncode': 0}
+[2.416715] (nmea_msgs) JobEnded: {'identifier': 'nmea_msgs', 'rc': 0}
+[2.417241] (xsens_mti_ros2_driver) JobStarted: {'identifier': 'xsens_mti_ros2_driver'}
+[2.422875] (xsens_mti_ros2_driver) JobProgress: {'identifier': 'xsens_mti_ros2_driver', 'progress': 'cmake'}
+[2.423510] (xsens_mti_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver', '-DCMAKE_BUILD_TYPE=Release', '-DCMAKE_INSTALL_PREFIX=/home/pedro/usv_ws/install/xsens_mti_ros2_driver'], 'cwd': '/home/pedro/usv_ws/build/xsens_mti_ros2_driver', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/pedro/ardupilot_gazebo/build'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('OPENCODE_DISABLE_EMBEDDED_WEB_UI', 'true'), ('no_proxy', '127.0.0.1,localhost,::1'), ('AI_AGENT', 'opencode'), ('OPENCODE_SESSION_ID', 'ses_e9a809ff5ffeDhk05j4xO25tsU'), ('USER', 'pedro'), ('LC_TIME', 'pt_PT.UTF-8'), ('AGENT', '1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pedro/usv_ws/install/nmea_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('CHROME_DESKTOP', 'ai.opencode.desktop.desktop'), ('OLDPWD', '/home/pedro/usv_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', '127.0.0.1,localhost,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/ai.opencode.desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1919'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('SYSTEMD_EXEC_PID', '2264'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5206'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pedro'), ('OPENCODE_CLIENT', 'desktop'), ('JOURNAL_STREAM', '8:15062'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('OPENCODE_TERMINAL', '1'), ('USERNAME', 'pedro'), ('STM32_PRG_PATH', '/home/pedro/Desktop/STM32CubeProg/binexport'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OPENCODE', '1'), ('PATH', '/home/pedro/.local/bin:/opt/ros/humble/bin:/home/pedro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pedro/ardupilot/Tools/autotest:/home/pedro/.local/bin:/home/pedro/.local/bin:/home/pedro/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/pedro-ThinkPad-P16s-Gen-3:@/tmp/.ICE-unix/2240,unix/pedro-ThinkPad-P16s-Gen-3:/tmp/.ICE-unix/2240'), ('INVOCATION_ID', '335fbe013a6647fba86e64e01a43fc0f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('OPENCODE_EXPERIMENTAL_FILEWATCHER', 'true'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('OPENCODE_EXPERIMENTAL_ICON_DISCOVERY', 'true'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/usv_ws/install/nmea_msgs:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/usv_ws/build/xsens_mti_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/pedro/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages:/home/pedro/ros2_ws/install/rover_cmd_vel_pub/lib/python3.10/site-packages:/home/pedro/ros2_ws/install/cmd_vel_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pedro/usv_ws/install/nmea_msgs:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble')]), 'shell': False}
+[2.433784] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.503887] (-) TimerEvent: {}
+[2.518704] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.535616] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.536789] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.541631] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.546494] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.552962] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.570091] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.570763] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.603990] (-) TimerEvent: {}
+[2.644800] (xsens_mti_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.673728] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.17 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[2.682926] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)\n'}
+[2.689951] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.702010] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.704044] (-) TimerEvent: {}
+[2.745974] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.755177] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.764316] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found nmea_msgs: 2.0.0 (/home/pedro/usv_ws/install/nmea_msgs/share/nmea_msgs/cmake)\n'}
+[2.773242] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found mavros_msgs: 2.14.0 (/opt/ros/humble/share/mavros_msgs/cmake)\n'}
+[2.801274] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.804117] (-) TimerEvent: {}
+[2.809277] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Detected ROS_DISTRO: humble\n'}
+[2.904223] (-) TimerEvent: {}
+[3.003606] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.004290] (-) TimerEvent: {}
+[3.104451] (-) TimerEvent: {}
+[3.204633] (-) TimerEvent: {}
+[3.247802] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.304723] (-) TimerEvent: {}
+[3.344407] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.360741] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.361565] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.381122] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.381292] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.381334] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.381372] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.397498] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.404807] (-) TimerEvent: {}
+[3.438385] (xsens_mti_ros2_driver) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[3.444274] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.478675] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[3.489228] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/pedro/usv_ws/build/xsens_mti_ros2_driver\n'}
+[3.496614] (xsens_mti_ros2_driver) CommandEnded: {'returncode': 0}
+[3.497635] (xsens_mti_ros2_driver) JobProgress: {'identifier': 'xsens_mti_ros2_driver', 'progress': 'build'}
+[3.498880] (xsens_mti_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pedro/usv_ws/build/xsens_mti_ros2_driver', '--', '-j22', '-l22'], 'cwd': '/home/pedro/usv_ws/build/xsens_mti_ros2_driver', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/pedro/ardupilot_gazebo/build'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('OPENCODE_DISABLE_EMBEDDED_WEB_UI', 'true'), ('no_proxy', '127.0.0.1,localhost,::1'), ('AI_AGENT', 'opencode'), ('OPENCODE_SESSION_ID', 'ses_e9a809ff5ffeDhk05j4xO25tsU'), ('USER', 'pedro'), ('LC_TIME', 'pt_PT.UTF-8'), ('AGENT', '1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pedro/usv_ws/install/nmea_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('CHROME_DESKTOP', 'ai.opencode.desktop.desktop'), ('OLDPWD', '/home/pedro/usv_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', '127.0.0.1,localhost,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/ai.opencode.desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1919'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('SYSTEMD_EXEC_PID', '2264'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5206'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pedro'), ('OPENCODE_CLIENT', 'desktop'), ('JOURNAL_STREAM', '8:15062'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('OPENCODE_TERMINAL', '1'), ('USERNAME', 'pedro'), ('STM32_PRG_PATH', '/home/pedro/Desktop/STM32CubeProg/binexport'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OPENCODE', '1'), ('PATH', '/home/pedro/.local/bin:/opt/ros/humble/bin:/home/pedro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pedro/ardupilot/Tools/autotest:/home/pedro/.local/bin:/home/pedro/.local/bin:/home/pedro/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/pedro-ThinkPad-P16s-Gen-3:@/tmp/.ICE-unix/2240,unix/pedro-ThinkPad-P16s-Gen-3:/tmp/.ICE-unix/2240'), ('INVOCATION_ID', '335fbe013a6647fba86e64e01a43fc0f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('OPENCODE_EXPERIMENTAL_FILEWATCHER', 'true'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('OPENCODE_EXPERIMENTAL_ICON_DISCOVERY', 'true'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/usv_ws/install/nmea_msgs:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/usv_ws/build/xsens_mti_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/pedro/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages:/home/pedro/ros2_ws/install/rover_cmd_vel_pub/lib/python3.10/site-packages:/home/pedro/ros2_ws/install/cmd_vel_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pedro/usv_ws/install/nmea_msgs:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble')]), 'shell': False}
+[3.504922] (-) TimerEvent: {}
+[3.536138] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[3.540387] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[  2%] Building CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\n'}
+[3.541603] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[  3%] Creating directories for 'xspublic'\n"}
+[3.542648] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[  4%] Building CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\n'}
+[3.543163] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[  6%] Building CXX object CMakeFiles/test_local_enu.dir/test/test_local_enu.cpp.o\n'}
+[3.544148] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[  7%] Generating C++ code for ROS interfaces\n'}
+[3.544960] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_copy_xsens_mti_ros2_driver\n'}
+[3.604633] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[  8%] No download step for 'xspublic'\n"}
+[3.604988] (-) TimerEvent: {}
+[3.628290] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[  9%] No update step for 'xspublic'\n"}
+[3.649913] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[ 11%] No patch step for 'xspublic'\n"}
+[3.672541] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[ 12%] No configure step for 'xspublic'\n"}
+[3.698023] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[ 13%] Performing build step for 'xspublic'\n"}
+[3.701602] (xsens_mti_ros2_driver) StdoutLine: {'line': b"make[3]: Entering directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic'\n"}
+[3.701816] (xsens_mti_ros2_driver) StdoutLine: {'line': b'make -C xstypes -w libxstypes.a\n'}
+[3.703225] (xsens_mti_ros2_driver) StdoutLine: {'line': b"make[4]: Entering directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xstypes'\n"}
+[3.705075] (-) TimerEvent: {}
+[3.706148] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsarray.c -o xsarray.c.o\n'}
+[3.708842] (xsens_mti_ros2_driver) StdoutLine: {'line': b'running egg_info\n'}
+[3.709225] (xsens_mti_ros2_driver) StdoutLine: {'line': b'creating xsens_mti_ros2_driver.egg-info\n'}
+[3.709344] (xsens_mti_ros2_driver) StdoutLine: {'line': b'writing xsens_mti_ros2_driver.egg-info/PKG-INFO\n'}
+[3.709456] (xsens_mti_ros2_driver) StdoutLine: {'line': b'writing dependency_links to xsens_mti_ros2_driver.egg-info/dependency_links.txt\n'}
+[3.709564] (xsens_mti_ros2_driver) StdoutLine: {'line': b'writing top-level names to xsens_mti_ros2_driver.egg-info/top_level.txt\n'}
+[3.709680] (xsens_mti_ros2_driver) StdoutLine: {'line': b"writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'\n"}
+[3.710948] (xsens_mti_ros2_driver) StdoutLine: {'line': b"reading manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'\n"}
+[3.711270] (xsens_mti_ros2_driver) StdoutLine: {'line': b"writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'\n"}
+[3.733097] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 13%] Built target ament_cmake_python_build_xsens_mti_ros2_driver_egg\n'}
+[3.765660] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsbaud.c -o xsbaud.c.o\n'}
+[3.799774] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsbytearray.c -o xsbytearray.c.o\n'}
+[3.805168] (-) TimerEvent: {}
+[3.835297] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xscalibrateddata.c -o xscalibrateddata.c.o\n'}
+[3.880743] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xscanoutputconfigurationarray.c -o xscanoutputconfigurationarray.c.o\n'}
+[3.905307] (-) TimerEvent: {}
+[3.913193] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xscanoutputconfiguration.c -o xscanoutputconfiguration.c.o\n'}
+[3.917996] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 14%] Linking CXX static library libgtest_main.a\n'}
+[3.945809] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsdatapacketptrarray.c -o xsdatapacketptrarray.c.o\n'}
+[4.005435] (-) TimerEvent: {}
+[4.007464] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsdevicecapabilities.c -o xsdevicecapabilities.c.o\n'}
+[4.034847] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 14%] Built target gtest_main\n'}
+[4.042014] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsdeviceidarray.c -o xsdeviceidarray.c.o\n'}
+[4.085652] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsdeviceid.c -o xsdeviceid.c.o\n'}
+[4.105569] (-) TimerEvent: {}
+[4.164446] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xseuler.c -o xseuler.c.o\n'}
+[4.205690] (-) TimerEvent: {}
+[4.210061] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsfile.c -o xsfile.c.o\n'}
+[4.271147] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsfilterprofilearray.c -o xsfilterprofilearray.c.o\n'}
+[4.305786] (-) TimerEvent: {}
+[4.308873] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsfilterprofile.c -o xsfilterprofile.c.o\n'}
+[4.350021] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsglovedata.c -o xsglovedata.c.o\n'}
+[4.403177] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsint64array.c -o xsint64array.c.o\n'}
+[4.405846] (-) TimerEvent: {}
+[4.425313] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/gnss_pvt__functions.c.o\n'}
+[4.425522] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 17%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__functions.c.o\n'}
+[4.426914] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 18%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.c.o\n'}
+[4.427141] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 19%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/ship_motion__functions.c.o\n'}
+[4.441529] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsintarray.c -o xsintarray.c.o\n'}
+[4.478111] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xslibraryloader.c -o xslibraryloader.c.o\n'}
+[4.506005] (-) TimerEvent: {}
+[4.515325] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsmalloc.c -o xsmalloc.c.o\n'}
+[4.524656] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 20%] Linking C shared library libxsens_mti_ros2_driver__rosidl_generator_c.so\n'}
+[4.525732] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 20%] Built target xsens_mti_ros2_driver__cpp\n'}
+[4.532565] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 22%] Generating C++ introspection for ROS interfaces\n'}
+[4.535500] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 23%] Generating C++ type support dispatch for ROS interfaces\n'}
+[4.535981] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 24%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[4.552978] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 24%] Built target xsens_mti_ros2_driver__rosidl_generator_c\n'}
+[4.561903] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsmath.c -o xsmath.c.o\n'}
+[4.563704] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 28%] Generating C type support for eProsima Fast-RTPS\n'}
+[4.563945] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 28%] Generating C introspection for ROS interfaces\n'}
+[4.564030] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 28%] Generating C type support dispatch for ROS interfaces\n'}
+[4.606101] (-) TimerEvent: {}
+[4.616320] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsmatrix3x3.c -o xsmatrix3x3.c.o\n'}
+[4.673396] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsmatrix.c -o xsmatrix.c.o\n'}
+[4.706208] (-) TimerEvent: {}
+[4.733653] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 29%] Linking CXX executable test_local_enu\n'}
+[4.746725] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsmessagearray.c -o xsmessagearray.c.o\n'}
+[4.791608] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 29%] Built target test_local_enu\n'}
+[4.792895] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsmessage.c -o xsmessage.c.o\n'}
+[4.806306] (-) TimerEvent: {}
+[4.893720] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsoutputconfigurationarray.c -o xsoutputconfigurationarray.c.o\n'}
+[4.906414] (-) TimerEvent: {}
+[4.933385] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsoutputconfiguration.c -o xsoutputconfiguration.c.o\n'}
+[4.969520] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsportinfoarray.c -o xsportinfoarray.c.o\n'}
+[5.006521] (-) TimerEvent: {}
+[5.017772] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsportinfo.c -o xsportinfo.c.o\n'}
+[5.064495] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsquaternionarray.c -o xsquaternionarray.c.o\n'}
+[5.106624] (-) TimerEvent: {}
+[5.117203] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsquaternion.c -o xsquaternion.c.o\n'}
+[5.180772] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsrange.c -o xsrange.c.o\n'}
+[5.206731] (-) TimerEvent: {}
+[5.216287] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsresultvalue.c -o xsresultvalue.c.o\n'}
+[5.256290] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsrssi.c -o xsrssi.c.o\n'}
+[5.291623] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssdidata.c -o xssdidata.c.o\n'}
+[5.306840] (-) TimerEvent: {}
+[5.349035] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssimpleversion.c -o xssimpleversion.c.o\n'}
+[5.393822] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssnapshot.c -o xssnapshot.c.o\n'}
+[5.406952] (-) TimerEvent: {}
+[5.438322] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssocket.c -o xssocket.c.o\n'}
+[5.461472] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xsens_mti_ros2_driver/msg/gnss_pvt__type_support.cpp.o\n'}
+[5.461721] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xsens_mti_ros2_driver/msg/gnss_sat_info__type_support.cpp.o\n'}
+[5.463866] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xsens_mti_ros2_driver/msg/xs_status_word__type_support.cpp.o\n'}
+[5.464195] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xsens_mti_ros2_driver/msg/ship_motion__type_support.cpp.o\n'}
+[5.504156] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 38%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.c.o\n'}
+[5.504360] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 38%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.c.o\n'}
+[5.504425] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 38%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.c.o\n'}
+[5.504593] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 39%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.c.o\n'}
+[5.506277] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xsens_mti_ros2_driver/msg/detail/dds_fastrtps/gnss_sat_info__type_support.cpp.o\n'}
+[5.506514] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 41%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xsens_mti_ros2_driver/msg/detail/dds_fastrtps/ship_motion__type_support.cpp.o\n'}
+[5.506882] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xsens_mti_ros2_driver/msg/detail/dds_fastrtps/xs_status_word__type_support.cpp.o\n'}
+[5.506995] (-) TimerEvent: {}
+[5.508073] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 44%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xsens_mti_ros2_driver/msg/detail/dds_fastrtps/gnss_pvt__type_support.cpp.o\n'}
+[5.544686] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsstringarray.c -o xsstringarray.c.o\n'}
+[5.569292] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 45%] Linking C shared library libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so\n'}
+[5.582448] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsstring.c -o xsstring.c.o\n'}
+[5.596990] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 45%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c\n'}
+[5.607134] (-) TimerEvent: {}
+[5.650884] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsstringoutputtypearray.c -o xsstringoutputtypearray.c.o\n'}
+[5.680621] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssyncsettingarray.c -o xssyncsettingarray.c.o\n'}
+[5.707246] (-) TimerEvent: {}
+[5.709714] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssyncsetting.c -o xssyncsetting.c.o\n'}
+[5.742944] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsthread.c -o xsthread.c.o\n'}
+[5.744505] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support_c.cpp.o\n'}
+[5.744688] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 48%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support_c.cpp.o\n'}
+[5.745195] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 49%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support_c.cpp.o\n'}
+[5.745372] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support_c.cpp.o\n'}
+[5.771642] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 51%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.cpp.o\n'}
+[5.771861] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 53%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.cpp.o\n'}
+[5.772081] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.cpp.o\n'}
+[5.772960] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 55%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.cpp.o\n'}
+[5.793795] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xstime.c -o xstime.c.o\n'}
+[5.800773] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 56%] Linking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so\n'}
+[5.807376] (-) TimerEvent: {}
+[5.837640] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xstimeinfo.c -o xstimeinfo.c.o\n'}
+[5.842236] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 56%] Built target xsens_mti_ros2_driver__rosidl_typesupport_cpp\n'}
+[5.865880] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xstimestamp.c -o xstimestamp.c.o\n'}
+[5.898949] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/xsens_mti_ros2_driver/msg/xs_status_word__type_support.cpp.o\n'}
+[5.899364] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/xsens_mti_ros2_driver/msg/gnss_pvt__type_support.cpp.o\n'}
+[5.899558] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 60%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/xsens_mti_ros2_driver/msg/ship_motion__type_support.cpp.o\n'}
+[5.899617] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/xsens_mti_ros2_driver/msg/gnss_sat_info__type_support.cpp.o\n'}
+[5.907503] (-) TimerEvent: {}
+[5.908532] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xstriggerindicationdata.c -o xstriggerindicationdata.c.o\n'}
+[5.934398] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 62%] Linking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_c.so\n'}
+[5.935080] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xstypedefs.c -o xstypedefs.c.o\n'}
+[5.965978] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 62%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c\n'}
+[5.968740] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsutctime.c -o xsutctime.c.o\n'}
+[6.000494] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsvector2.c -o xsvector2.c.o\n'}
+[6.007590] (-) TimerEvent: {}
+[6.022828] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 64%] Linking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.049506] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsvector3.c -o xsvector3.c.o\n'}
+[6.085284] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 64%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp\n'}
+[6.094326] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsvector.c -o xsvector.c.o\n'}
+[6.107691] (-) TimerEvent: {}
+[6.147568] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsversion.c -o xsversion.c.o\n'}
+[6.154543] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 65%] Linking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[6.186163] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 66%] Linking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[6.196966] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic datapacket_p.cpp -o datapacket_p.cpp.o\n'}
+[6.207811] (-) TimerEvent: {}
+[6.211695] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 66%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c\n'}
+[6.240938] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 66%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp\n'}
+[6.259423] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 66%] Built target xsens_mti_ros2_driver\n'}
+[6.276542] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 67%] Generating Python code for ROS interfaces\n'}
+[6.307932] (-) TimerEvent: {}
+[6.408205] (-) TimerEvent: {}
+[6.508515] (-) TimerEvent: {}
+[6.524717] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsdatapacket.cpp -o xsdatapacket.cpp.o\n'}
+[6.608705] (-) TimerEvent: {}
+[6.709028] (-) TimerEvent: {}
+[6.809343] (-) TimerEvent: {}
+[6.909737] (-) TimerEvent: {}
+[7.010108] (-) TimerEvent: {}
+[7.110417] (-) TimerEvent: {}
+[7.144060] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xsdebugcounters.cpp -o xsdebugcounters.cpp.o\n'}
+[7.195772] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xspublic xssensorranges.cpp -o xssensorranges.cpp.o\n'}
+[7.210626] (-) TimerEvent: {}
+[7.310969] (-) TimerEvent: {}
+[7.334244] (xsens_mti_ros2_driver) StdoutLine: {'line': b'ar rcs libxstypes.a xsarray.c.o xsbaud.c.o xsbytearray.c.o xscalibrateddata.c.o xscanoutputconfigurationarray.c.o xscanoutputconfiguration.c.o xsdatapacketptrarray.c.o xsdevicecapabilities.c.o xsdeviceidarray.c.o xsdeviceid.c.o xseuler.c.o xsfile.c.o xsfilterprofilearray.c.o xsfilterprofile.c.o xsglovedata.c.o xsint64array.c.o xsintarray.c.o xslibraryloader.c.o xsmalloc.c.o xsmath.c.o xsmatrix3x3.c.o xsmatrix.c.o xsmessagearray.c.o xsmessage.c.o xsoutputconfigurationarray.c.o xsoutputconfiguration.c.o xsportinfoarray.c.o xsportinfo.c.o xsquaternionarray.c.o xsquaternion.c.o xsrange.c.o xsresultvalue.c.o xsrssi.c.o xssdidata.c.o xssimpleversion.c.o xssnapshot.c.o xssocket.c.o xsstringarray.c.o xsstring.c.o xsstringoutputtypearray.c.o xssyncsettingarray.c.o xssyncsetting.c.o xsthread.c.o xstime.c.o xstimeinfo.c.o xstimestamp.c.o xstriggerindicationdata.c.o xstypedefs.c.o xsutctime.c.o xsvector2.c.o xsvector3.c.o xsvector.c.o xsversion.c.o datapacket_p.cpp.o xsdatapacket.cpp.o xsdebugcounters.cpp.o xssensorranges.cpp.o\n'}
+[7.354130] (xsens_mti_ros2_driver) StdoutLine: {'line': b"make[4]: Leaving directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xstypes'\n"}
+[7.354517] (xsens_mti_ros2_driver) StdoutLine: {'line': b'make -C xscommon -w\n'}
+[7.356257] (xsens_mti_ros2_driver) StdoutLine: {'line': b"make[4]: Entering directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xscommon'\n"}
+[7.356605] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h additionalloggerbase.cpp -o additionalloggerbase.cpp.o\n'}
+[7.411139] (-) TimerEvent: {}
+[7.458135] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h consolelogger.cpp -o consolelogger.cpp.o\n'}
+[7.511295] (-) TimerEvent: {}
+[7.600636] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h enumexpandersbase.cpp -o enumexpandersbase.cpp.o\n'}
+[7.611485] (-) TimerEvent: {}
+[7.711814] (-) TimerEvent: {}
+[7.812142] (-) TimerEvent: {}
+[7.909861] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h journalexception.cpp -o journalexception.cpp.o\n'}
+[7.912304] (-) TimerEvent: {}
+[7.971623] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 67%] Built target xsens_mti_ros2_driver__py\n'}
+[7.986199] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 69%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_py.dir/rosidl_generator_py/xsens_mti_ros2_driver/msg/_ship_motion_s.c.o\n'}
+[7.988391] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 71%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_py.dir/rosidl_generator_py/xsens_mti_ros2_driver/msg/_xs_status_word_s.c.o\n'}
+[7.988584] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 71%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_py.dir/rosidl_generator_py/xsens_mti_ros2_driver/msg/_gnss_sat_info_s.c.o\n'}
+[7.988668] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 72%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_py.dir/rosidl_generator_py/xsens_mti_ros2_driver/msg/_gnss_pvt_s.c.o\n'}
+[8.012404] (-) TimerEvent: {}
+[8.109767] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 74%] Linking C shared library rosidl_generator_py/xsens_mti_ros2_driver/libxsens_mti_ros2_driver__rosidl_generator_py.so\n'}
+[8.112475] (-) TimerEvent: {}
+[8.133334] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h journalfile.cpp -o journalfile.cpp.o\n'}
+[8.138160] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 74%] Built target xsens_mti_ros2_driver__rosidl_generator_py\n'}
+[8.157853] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 77%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[8.158084] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 77%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[8.158167] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 77%] Building C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_c.c.o\n'}
+[8.212627] (-) TimerEvent: {}
+[8.254279] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 79%] Linking C shared library rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.254606] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 80%] Linking C shared library rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.261959] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 81%] Linking C shared library rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.284999] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 81%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c__pyext\n'}
+[8.285882] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 81%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.292153] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h journaller.cpp -o journaller.cpp.o\n'}
+[8.297040] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 81%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c__pyext\n'}
+[8.312821] (-) TimerEvent: {}
+[8.413135] (-) TimerEvent: {}
+[8.513400] (-) TimerEvent: {}
+[8.584593] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 82%] Linking CXX static library libgtest.a\n'}
+[8.613583] (-) TimerEvent: {}
+[8.635970] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 82%] Built target gtest\n'}
+[8.647792] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h journalthreader.cpp -o journalthreader.cpp.o\n'}
+[8.713768] (-) TimerEvent: {}
+[8.814006] (-) TimerEvent: {}
+[8.891551] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h stackdumper.cpp -o stackdumper.cpp.o\n'}
+[8.914114] (-) TimerEvent: {}
+[8.992080] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h stackwalker.cpp -o stackwalker.cpp.o\n'}
+[9.014226] (-) TimerEvent: {}
+[9.028499] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h stackwalker_linux.cpp -o stackwalker_linux.cpp.o\n'}
+[9.114335] (-) TimerEvent: {}
+[9.126187] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h threading.cpp -o threading.cpp.o\n'}
+[9.214450] (-) TimerEvent: {}
+[9.314690] (-) TimerEvent: {}
+[9.344828] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h xprintf.cpp -o xprintf.cpp.o\n'}
+[9.414804] (-) TimerEvent: {}
+[9.486634] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h xsens_math_throw.cpp -o xsens_math_throw.cpp.o\n'}
+[9.514918] (-) TimerEvent: {}
+[9.615147] (-) TimerEvent: {}
+[9.674422] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscommon_config.h -include xstypes/xsens_compat.h xsens_threadpool.cpp -o xsens_threadpool.cpp.o\n'}
+[9.715273] (-) TimerEvent: {}
+[9.815566] (-) TimerEvent: {}
+[9.915963] (-) TimerEvent: {}
+[10.016241] (-) TimerEvent: {}
+[10.116480] (-) TimerEvent: {}
+[10.136062] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I../ -include xscommon_config.h -include xstypes/xsens_compat.h fwupdate.c -o fwupdate.c.o\n'}
+[10.179803] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I../ -include xscommon_config.h -include xstypes/xsens_compat.h xbus.c -o xbus.c.o\n'}
+[10.216597] (-) TimerEvent: {}
+[10.218316] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I../ -include xscommon_config.h -include xstypes/xsens_compat.h xbusparser.c -o xbusparser.c.o\n'}
+[10.254107] (xsens_mti_ros2_driver) StdoutLine: {'line': b'ar rcs libxscommon.a additionalloggerbase.cpp.o consolelogger.cpp.o enumexpandersbase.cpp.o journalexception.cpp.o journalfile.cpp.o journaller.cpp.o journalthreader.cpp.o stackdumper.cpp.o stackwalker.cpp.o stackwalker_linux.cpp.o threading.cpp.o xprintf.cpp.o xsens_math_throw.cpp.o xsens_threadpool.cpp.o fwupdate.c.o xbus.c.o xbusparser.c.o\n'}
+[10.271256] (xsens_mti_ros2_driver) StdoutLine: {'line': b"make[4]: Leaving directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xscommon'\n"}
+[10.271403] (xsens_mti_ros2_driver) StdoutLine: {'line': b'make -C xscontroller -w\n'}
+[10.272849] (xsens_mti_ros2_driver) StdoutLine: {'line': b"make[4]: Entering directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xscontroller'\n"}
+[10.272934] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER broadcastdevice.cpp -o broadcastdevice.cpp.o\n'}
+[10.316723] (-) TimerEvent: {}
+[10.416925] (-) TimerEvent: {}
+[10.517138] (-) TimerEvent: {}
+[10.617350] (-) TimerEvent: {}
+[10.678916] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER callbackmanagerxda.cpp -o callbackmanagerxda.cpp.o\n'}
+[10.717478] (-) TimerEvent: {}
+[10.817729] (-) TimerEvent: {}
+[10.917961] (-) TimerEvent: {}
+[10.944856] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER communicator.cpp -o communicator.cpp.o\n'}
+[11.018077] (-) TimerEvent: {}
+[11.118301] (-) TimerEvent: {}
+[11.218511] (-) TimerEvent: {}
+[11.294744] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER communicatorfactory.cpp -o communicatorfactory.cpp.o\n'}
+[11.318624] (-) TimerEvent: {}
+[11.418868] (-) TimerEvent: {}
+[11.519077] (-) TimerEvent: {}
+[11.530504] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER datalogger.cpp -o datalogger.cpp.o\n'}
+[11.619193] (-) TimerEvent: {}
+[11.719426] (-) TimerEvent: {}
+[11.722498] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER datapacketcache.cpp -o datapacketcache.cpp.o\n'}
+[11.819549] (-) TimerEvent: {}
+[11.919786] (-) TimerEvent: {}
+[12.020009] (-) TimerEvent: {}
+[12.023359] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER dataparser.cpp -o dataparser.cpp.o\n'}
+[12.120124] (-) TimerEvent: {}
+[12.220351] (-) TimerEvent: {}
+[12.320558] (-) TimerEvent: {}
+[12.362526] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER datapoller.cpp -o datapoller.cpp.o\n'}
+[12.420692] (-) TimerEvent: {}
+[12.520918] (-) TimerEvent: {}
+[12.606169] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER devicecommunicator.cpp -o devicecommunicator.cpp.o\n'}
+[12.621011] (-) TimerEvent: {}
+[12.721211] (-) TimerEvent: {}
+[12.821443] (-) TimerEvent: {}
+[12.921687] (-) TimerEvent: {}
+[12.973394] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER devicefactory.cpp -o devicefactory.cpp.o\n'}
+[13.021735] (-) TimerEvent: {}
+[13.121944] (-) TimerEvent: {}
+[13.222178] (-) TimerEvent: {}
+[13.322423] (-) TimerEvent: {}
+[13.386335] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER deviceredetector.cpp -o deviceredetector.cpp.o\n'}
+[13.422516] (-) TimerEvent: {}
+[13.522737] (-) TimerEvent: {}
+[13.622939] (-) TimerEvent: {}
+[13.668237] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER dotdevice.cpp -o dotdevice.cpp.o\n'}
+[13.723145] (-) TimerEvent: {}
+[13.823390] (-) TimerEvent: {}
+[13.923622] (-) TimerEvent: {}
+[14.023945] (-) TimerEvent: {}
+[14.031557] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER dummy.cpp -o dummy.cpp.o\n'}
+[14.124057] (-) TimerEvent: {}
+[14.223449] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER enumerateusbdevices.cpp -o enumerateusbdevices.cpp.o\n'}
+[14.224142] (-) TimerEvent: {}
+[14.324369] (-) TimerEvent: {}
+[14.424583] (-) TimerEvent: {}
+[14.426413] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER enumexpanders.cpp -o enumexpanders.cpp.o\n'}
+[14.524716] (-) TimerEvent: {}
+[14.624927] (-) TimerEvent: {}
+[14.634140] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER iointerface.cpp -o iointerface.cpp.o\n'}
+[14.725032] (-) TimerEvent: {}
+[14.825236] (-) TimerEvent: {}
+[14.840484] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER iointerfacefile.cpp -o iointerfacefile.cpp.o\n'}
+[14.925356] (-) TimerEvent: {}
+[15.025563] (-) TimerEvent: {}
+[15.101632] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER messageextractor.cpp -o messageextractor.cpp.o\n'}
+[15.125661] (-) TimerEvent: {}
+[15.225840] (-) TimerEvent: {}
+[15.326052] (-) TimerEvent: {}
+[15.426260] (-) TimerEvent: {}
+[15.445643] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER messageserializer.cpp -o messageserializer.cpp.o\n'}
+[15.526379] (-) TimerEvent: {}
+[15.626586] (-) TimerEvent: {}
+[15.682535] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtbdatalogger.cpp -o mtbdatalogger.cpp.o\n'}
+[15.726703] (-) TimerEvent: {}
+[15.826898] (-) TimerEvent: {}
+[15.927103] (-) TimerEvent: {}
+[15.991649] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtbfilecommunicator.cpp -o mtbfilecommunicator.cpp.o\n'}
+[16.027211] (-) TimerEvent: {}
+[16.127413] (-) TimerEvent: {}
+[16.227621] (-) TimerEvent: {}
+[16.327837] (-) TimerEvent: {}
+[16.428054] (-) TimerEvent: {}
+[16.433794] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtdevice.cpp -o mtdevice.cpp.o\n'}
+[16.528236] (-) TimerEvent: {}
+[16.628461] (-) TimerEvent: {}
+[16.728707] (-) TimerEvent: {}
+[16.828920] (-) TimerEvent: {}
+[16.892881] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mti3x0device.cpp -o mti3x0device.cpp.o\n'}
+[16.929064] (-) TimerEvent: {}
+[17.029344] (-) TimerEvent: {}
+[17.129626] (-) TimerEvent: {}
+[17.229941] (-) TimerEvent: {}
+[17.267098] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mti6x0device.cpp -o mti6x0device.cpp.o\n'}
+[17.330180] (-) TimerEvent: {}
+[17.430438] (-) TimerEvent: {}
+[17.530656] (-) TimerEvent: {}
+[17.630924] (-) TimerEvent: {}
+[17.658516] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mti7_mti8device.cpp -o mti7_mti8device.cpp.o\n'}
+[17.731058] (-) TimerEvent: {}
+[17.831319] (-) TimerEvent: {}
+[17.931549] (-) TimerEvent: {}
+[18.005600] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mti8x0_mti9x0device.cpp -o mti8x0_mti9x0device.cpp.o\n'}
+[18.031674] (-) TimerEvent: {}
+[18.131974] (-) TimerEvent: {}
+[18.232198] (-) TimerEvent: {}
+[18.332462] (-) TimerEvent: {}
+[18.404874] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtibasedevice.cpp -o mtibasedevice.cpp.o\n'}
+[18.432676] (-) TimerEvent: {}
+[18.533080] (-) TimerEvent: {}
+[18.633337] (-) TimerEvent: {}
+[18.733559] (-) TimerEvent: {}
+[18.814258] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtigdevice.cpp -o mtigdevice.cpp.o\n'}
+[18.833705] (-) TimerEvent: {}
+[18.933941] (-) TimerEvent: {}
+[19.034210] (-) TimerEvent: {}
+[19.132815] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtix00device.cpp -o mtix00device.cpp.o\n'}
+[19.134307] (-) TimerEvent: {}
+[19.234515] (-) TimerEvent: {}
+[19.334740] (-) TimerEvent: {}
+[19.435004] (-) TimerEvent: {}
+[19.535248] (-) TimerEvent: {}
+[19.542042] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtix0device.cpp -o mtix0device.cpp.o\n'}
+[19.635379] (-) TimerEvent: {}
+[19.735619] (-) TimerEvent: {}
+[19.835887] (-) TimerEvent: {}
+[19.905616] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtixdevice.cpp -o mtixdevice.cpp.o\n'}
+[19.935999] (-) TimerEvent: {}
+[20.036230] (-) TimerEvent: {}
+[20.136468] (-) TimerEvent: {}
+[20.236740] (-) TimerEvent: {}
+[20.274365] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER mtthread.cpp -o mtthread.cpp.o\n'}
+[20.336882] (-) TimerEvent: {}
+[20.437114] (-) TimerEvent: {}
+[20.537364] (-) TimerEvent: {}
+[20.594365] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER nmea_protocolhandler.cpp -o nmea_protocolhandler.cpp.o\n'}
+[20.637489] (-) TimerEvent: {}
+[20.737713] (-) TimerEvent: {}
+[20.837935] (-) TimerEvent: {}
+[20.894534] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER packeterrorrateestimator.cpp -o packeterrorrateestimator.cpp.o\n'}
+[20.938078] (-) TimerEvent: {}
+[21.038331] (-) TimerEvent: {}
+[21.138556] (-) TimerEvent: {}
+[21.152280] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER packetstamper.cpp -o packetstamper.cpp.o\n'}
+[21.238705] (-) TimerEvent: {}
+[21.338944] (-) TimerEvent: {}
+[21.439178] (-) TimerEvent: {}
+[21.473500] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER protocolhandler.cpp -o protocolhandler.cpp.o\n'}
+[21.539310] (-) TimerEvent: {}
+[21.639550] (-) TimerEvent: {}
+[21.703564] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER protocolmanager.cpp -o protocolmanager.cpp.o\n'}
+[21.739708] (-) TimerEvent: {}
+[21.839923] (-) TimerEvent: {}
+[21.940152] (-) TimerEvent: {}
+[22.005875] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER proxycommunicator.cpp -o proxycommunicator.cpp.o\n'}
+[22.040278] (-) TimerEvent: {}
+[22.140496] (-) TimerEvent: {}
+[22.240724] (-) TimerEvent: {}
+[22.340926] (-) TimerEvent: {}
+[22.342135] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER replymonitor.cpp -o replymonitor.cpp.o\n'}
+[22.441034] (-) TimerEvent: {}
+[22.541252] (-) TimerEvent: {}
+[22.641558] (-) TimerEvent: {}
+[22.653191] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER replyobject.cpp -o replyobject.cpp.o\n'}
+[22.741692] (-) TimerEvent: {}
+[22.841919] (-) TimerEvent: {}
+[22.906766] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER restorecommunication.cpp -o restorecommunication.cpp.o\n'}
+[22.942041] (-) TimerEvent: {}
+[23.042270] (-) TimerEvent: {}
+[23.142493] (-) TimerEvent: {}
+[23.236936] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER scanner.cpp -o scanner.cpp.o\n'}
+[23.242550] (-) TimerEvent: {}
+[23.342715] (-) TimerEvent: {}
+[23.442940] (-) TimerEvent: {}
+[23.543167] (-) TimerEvent: {}
+[23.643381] (-) TimerEvent: {}
+[23.673259] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER serialcommunicator.cpp -o serialcommunicator.cpp.o\n'}
+[23.743501] (-) TimerEvent: {}
+[23.843834] (-) TimerEvent: {}
+[23.944064] (-) TimerEvent: {}
+[24.044322] (-) TimerEvent: {}
+[24.049081] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER serialinterface.cpp -o serialinterface.cpp.o\n'}
+[24.144428] (-) TimerEvent: {}
+[24.244807] (-) TimerEvent: {}
+[24.314065] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER serialportcommunicator.cpp -o serialportcommunicator.cpp.o\n'}
+[24.344929] (-) TimerEvent: {}
+[24.445266] (-) TimerEvent: {}
+[24.545518] (-) TimerEvent: {}
+[24.645745] (-) TimerEvent: {}
+[24.646008] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER streaminterface.cpp -o streaminterface.cpp.o\n'}
+[24.745864] (-) TimerEvent: {}
+[24.846101] (-) TimerEvent: {}
+[24.854381] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER supportedsyncsettings.cpp -o supportedsyncsettings.cpp.o\n'}
+[24.946236] (-) TimerEvent: {}
+[25.046513] (-) TimerEvent: {}
+[25.122416] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER udev.cpp -o udev.cpp.o\n'}
+[25.146712] (-) TimerEvent: {}
+[25.246947] (-) TimerEvent: {}
+[25.319732] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER usbcommunicator.cpp -o usbcommunicator.cpp.o\n'}
+[25.347102] (-) TimerEvent: {}
+[25.447337] (-) TimerEvent: {}
+[25.547600] (-) TimerEvent: {}
+[25.647892] (-) TimerEvent: {}
+[25.661322] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER usbinterface.cpp -o usbinterface.cpp.o\n'}
+[25.748019] (-) TimerEvent: {}
+[25.848273] (-) TimerEvent: {}
+[25.905122] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xdacommunicatorfactory.cpp -o xdacommunicatorfactory.cpp.o\n'}
+[25.948422] (-) TimerEvent: {}
+[26.048878] (-) TimerEvent: {}
+[26.149138] (-) TimerEvent: {}
+[26.240378] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xscontrol_def.cpp -o xscontrol_def.cpp.o\n'}
+[26.249297] (-) TimerEvent: {}
+[26.349606] (-) TimerEvent: {}
+[26.449829] (-) TimerEvent: {}
+[26.550080] (-) TimerEvent: {}
+[26.650346] (-) TimerEvent: {}
+[26.750564] (-) TimerEvent: {}
+[26.827276] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xsdef.cpp -o xsdef.cpp.o\n'}
+[26.850852] (-) TimerEvent: {}
+[26.951094] (-) TimerEvent: {}
+[27.026386] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xsdevice_def.cpp -o xsdevice_def.cpp.o\n'}
+[27.051207] (-) TimerEvent: {}
+[27.151402] (-) TimerEvent: {}
+[27.251636] (-) TimerEvent: {}
+[27.351875] (-) TimerEvent: {}
+[27.452100] (-) TimerEvent: {}
+[27.552323] (-) TimerEvent: {}
+[27.652529] (-) TimerEvent: {}
+[27.752744] (-) TimerEvent: {}
+[27.792561] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xslibusb.cpp -o xslibusb.cpp.o\n'}
+[27.852850] (-) TimerEvent: {}
+[27.953061] (-) TimerEvent: {}
+[27.977581] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xsscanner.cpp -o xsscanner.cpp.o\n'}
+[28.053181] (-) TimerEvent: {}
+[28.153402] (-) TimerEvent: {}
+[28.213432] (xsens_mti_ros2_driver) StdoutLine: {'line': b'g++ -c -std=c++11 -I../ -include xscontrollerconfig.h -DHAVE_JOURNALLER xswinusb.cpp -o xswinusb.cpp.o\n'}
+[28.253524] (-) TimerEvent: {}
+[28.353748] (-) TimerEvent: {}
+[28.402914] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I../ -include xscontrollerconfig.h synclinegmt.c -o synclinegmt.c.o\n'}
+[28.427167] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I../ -include xscontrollerconfig.h synclinemk4.c -o synclinemk4.c.o\n'}
+[28.453863] (-) TimerEvent: {}
+[28.454203] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I../ -include xscontrollerconfig.h xsconnectivitystate.c -o xsconnectivitystate.c.o\n'}
+[28.483637] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I../ -include xscontrollerconfig.h xsdeviceconfiguration.c -o xsdeviceconfiguration.c.o\n'}
+[28.529130] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I../ -include xscontrollerconfig.h xsdeviceptrarray.c -o xsdeviceptrarray.c.o\n'}
+[28.553960] (-) TimerEvent: {}
+[28.557183] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I../ -include xscontrollerconfig.h xsdevicestate.c -o xsdevicestate.c.o\n'}
+[28.589707] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I../ -include xscontrollerconfig.h xsrejectreason.c -o xsrejectreason.c.o\n'}
+[28.615439] (xsens_mti_ros2_driver) StdoutLine: {'line': b'cc -c -fPIC -I../ -include xscontrollerconfig.h xsusbhubinfo.c -o xsusbhubinfo.c.o\n'}
+[28.648546] (xsens_mti_ros2_driver) StdoutLine: {'line': b'ar rcs libxscontroller.a broadcastdevice.cpp.o callbackmanagerxda.cpp.o communicator.cpp.o communicatorfactory.cpp.o datalogger.cpp.o datapacketcache.cpp.o dataparser.cpp.o datapoller.cpp.o devicecommunicator.cpp.o devicefactory.cpp.o deviceredetector.cpp.o dotdevice.cpp.o dummy.cpp.o enumerateusbdevices.cpp.o enumexpanders.cpp.o iointerface.cpp.o iointerfacefile.cpp.o messageextractor.cpp.o messageserializer.cpp.o mtbdatalogger.cpp.o mtbfilecommunicator.cpp.o mtdevice.cpp.o mti3x0device.cpp.o mti6x0device.cpp.o mti7_mti8device.cpp.o mti8x0_mti9x0device.cpp.o mtibasedevice.cpp.o mtigdevice.cpp.o mtix00device.cpp.o mtix0device.cpp.o mtixdevice.cpp.o mtthread.cpp.o nmea_protocolhandler.cpp.o packeterrorrateestimator.cpp.o packetstamper.cpp.o protocolhandler.cpp.o protocolmanager.cpp.o proxycommunicator.cpp.o replymonitor.cpp.o replyobject.cpp.o restorecommunication.cpp.o scanner.cpp.o serialcommunicator.cpp.o serialinterface.cpp.o serialportcommunicator.cpp.o streaminterface.cpp.o supportedsyncsettings.cpp.o udev.cpp.o usbcommunicator.cpp.o usbinterface.cpp.o xdacommunicatorfactory.cpp.o xscontrol_def.cpp.o xsdef.cpp.o xsdevice_def.cpp.o xslibusb.cpp.o xsscanner.cpp.o xswinusb.cpp.o synclinegmt.c.o synclinemk4.c.o xsconnectivitystate.c.o xsdeviceconfiguration.c.o xsdeviceptrarray.c.o xsdevicestate.c.o xsrejectreason.c.o xsusbhubinfo.c.o\n'}
+[28.654080] (-) TimerEvent: {}
+[28.683007] (xsens_mti_ros2_driver) StdoutLine: {'line': b"make[4]: Leaving directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic/xscontroller'\n"}
+[28.683215] (xsens_mti_ros2_driver) StdoutLine: {'line': b"make[3]: Leaving directory '/home/pedro/usv_ws/src/xsens_mti_ros_driver/src/xsens_mti_ros2_driver/lib/xspublic'\n"}
+[28.696250] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[ 83%] No install step for 'xspublic'\n"}
+[28.717320] (xsens_mti_ros2_driver) StdoutLine: {'line': b"[ 85%] Completed 'xspublic'\n"}
+[28.743388] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 85%] Built target xspublic\n'}
+[28.754192] (-) TimerEvent: {}
+[28.758967] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 86%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/ntrip_util.cpp.o\n'}
+[28.759209] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 87%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/xdacallback.cpp.o\n'}
+[28.759346] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 88%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/main.cpp.o\n'}
+[28.759827] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 90%] Building CXX object CMakeFiles/test_imu_publisher.dir/test/test_imu_publisher.cpp.o\n'}
+[28.760306] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 91%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_diagnostics.cpp.o\n'}
+[28.760967] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 92%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o\n'}
+[28.761525] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 95%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_log_handler.cpp.o\n'}
+[28.761645] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 95%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_time_handler.cpp.o\n'}
+[28.762109] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 96%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/high_rate_interpolator.cpp.o\n'}
+[28.762464] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 97%] Building CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_mti_lifecycle_node.cpp.o\n'}
+[28.854317] (-) TimerEvent: {}
+[28.954576] (-) TimerEvent: {}
+[29.054817] (-) TimerEvent: {}
+[29.155067] (-) TimerEvent: {}
+[29.255289] (-) TimerEvent: {}
+[29.355547] (-) TimerEvent: {}
+[29.455798] (-) TimerEvent: {}
+[29.556055] (-) TimerEvent: {}
+[29.656301] (-) TimerEvent: {}
+[29.756552] (-) TimerEvent: {}
+[29.856787] (-) TimerEvent: {}
+[29.957037] (-) TimerEvent: {}
+[30.057295] (-) TimerEvent: {}
+[30.157553] (-) TimerEvent: {}
+[30.257769] (-) TimerEvent: {}
+[30.358003] (-) TimerEvent: {}
+[30.458244] (-) TimerEvent: {}
+[30.558499] (-) TimerEvent: {}
+[30.658739] (-) TimerEvent: {}
+[30.758983] (-) TimerEvent: {}
+[30.859218] (-) TimerEvent: {}
+[30.959457] (-) TimerEvent: {}
+[31.059717] (-) TimerEvent: {}
+[31.159973] (-) TimerEvent: {}
+[31.260257] (-) TimerEvent: {}
+[31.360517] (-) TimerEvent: {}
+[31.460754] (-) TimerEvent: {}
+[31.561143] (-) TimerEvent: {}
+[31.661586] (-) TimerEvent: {}
+[31.761935] (-) TimerEvent: {}
+[31.862263] (-) TimerEvent: {}
+[31.962609] (-) TimerEvent: {}
+[32.062858] (-) TimerEvent: {}
+[32.163166] (-) TimerEvent: {}
+[32.263416] (-) TimerEvent: {}
+[32.363651] (-) TimerEvent: {}
+[32.463945] (-) TimerEvent: {}
+[32.564281] (-) TimerEvent: {}
+[32.664521] (-) TimerEvent: {}
+[32.764899] (-) TimerEvent: {}
+[32.865132] (-) TimerEvent: {}
+[32.965405] (-) TimerEvent: {}
+[33.065725] (-) TimerEvent: {}
+[33.165993] (-) TimerEvent: {}
+[33.266294] (-) TimerEvent: {}
+[33.366561] (-) TimerEvent: {}
+[33.466824] (-) TimerEvent: {}
+[33.567027] (-) TimerEvent: {}
+[33.667253] (-) TimerEvent: {}
+[33.767502] (-) TimerEvent: {}
+[33.867761] (-) TimerEvent: {}
+[33.967998] (-) TimerEvent: {}
+[34.068232] (-) TimerEvent: {}
+[34.168473] (-) TimerEvent: {}
+[34.268731] (-) TimerEvent: {}
+[34.368970] (-) TimerEvent: {}
+[34.469217] (-) TimerEvent: {}
+[34.569474] (-) TimerEvent: {}
+[34.669739] (-) TimerEvent: {}
+[34.769979] (-) TimerEvent: {}
+[34.870223] (-) TimerEvent: {}
+[34.970467] (-) TimerEvent: {}
+[35.053266] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 98%] Linking CXX executable test_imu_publisher\n'}
+[35.070598] (-) TimerEvent: {}
+[35.170862] (-) TimerEvent: {}
+[35.184616] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[ 98%] Built target test_imu_publisher\n'}
+[35.270977] (-) TimerEvent: {}
+[35.371247] (-) TimerEvent: {}
+[35.471504] (-) TimerEvent: {}
+[35.571736] (-) TimerEvent: {}
+[35.671980] (-) TimerEvent: {}
+[35.772252] (-) TimerEvent: {}
+[35.872557] (-) TimerEvent: {}
+[35.972807] (-) TimerEvent: {}
+[36.073044] (-) TimerEvent: {}
+[36.173285] (-) TimerEvent: {}
+[36.273533] (-) TimerEvent: {}
+[36.373780] (-) TimerEvent: {}
+[36.474017] (-) TimerEvent: {}
+[36.574274] (-) TimerEvent: {}
+[36.674529] (-) TimerEvent: {}
+[36.774757] (-) TimerEvent: {}
+[36.875003] (-) TimerEvent: {}
+[36.975250] (-) TimerEvent: {}
+[37.075499] (-) TimerEvent: {}
+[37.175759] (-) TimerEvent: {}
+[37.275994] (-) TimerEvent: {}
+[37.376230] (-) TimerEvent: {}
+[37.476511] (-) TimerEvent: {}
+[37.576822] (-) TimerEvent: {}
+[37.677081] (-) TimerEvent: {}
+[37.777340] (-) TimerEvent: {}
+[37.877823] (-) TimerEvent: {}
+[37.978166] (-) TimerEvent: {}
+[38.078537] (-) TimerEvent: {}
+[38.178896] (-) TimerEvent: {}
+[38.279204] (-) TimerEvent: {}
+[38.379528] (-) TimerEvent: {}
+[38.479801] (-) TimerEvent: {}
+[38.580068] (-) TimerEvent: {}
+[38.680324] (-) TimerEvent: {}
+[38.780592] (-) TimerEvent: {}
+[38.880868] (-) TimerEvent: {}
+[38.981155] (-) TimerEvent: {}
+[39.081474] (-) TimerEvent: {}
+[39.181904] (-) TimerEvent: {}
+[39.282191] (-) TimerEvent: {}
+[39.382475] (-) TimerEvent: {}
+[39.482762] (-) TimerEvent: {}
+[39.583010] (-) TimerEvent: {}
+[39.683238] (-) TimerEvent: {}
+[39.783454] (-) TimerEvent: {}
+[39.883702] (-) TimerEvent: {}
+[39.983938] (-) TimerEvent: {}
+[40.084166] (-) TimerEvent: {}
+[40.184397] (-) TimerEvent: {}
+[40.284624] (-) TimerEvent: {}
+[40.384857] (-) TimerEvent: {}
+[40.485099] (-) TimerEvent: {}
+[40.585327] (-) TimerEvent: {}
+[40.685567] (-) TimerEvent: {}
+[40.785808] (-) TimerEvent: {}
+[40.886028] (-) TimerEvent: {}
+[40.986250] (-) TimerEvent: {}
+[41.086500] (-) TimerEvent: {}
+[41.186751] (-) TimerEvent: {}
+[41.287001] (-) TimerEvent: {}
+[41.387226] (-) TimerEvent: {}
+[41.487440] (-) TimerEvent: {}
+[41.587702] (-) TimerEvent: {}
+[41.687948] (-) TimerEvent: {}
+[41.788164] (-) TimerEvent: {}
+[41.888368] (-) TimerEvent: {}
+[41.988580] (-) TimerEvent: {}
+[42.088792] (-) TimerEvent: {}
+[42.188998] (-) TimerEvent: {}
+[42.289205] (-) TimerEvent: {}
+[42.389400] (-) TimerEvent: {}
+[42.489599] (-) TimerEvent: {}
+[42.589809] (-) TimerEvent: {}
+[42.690006] (-) TimerEvent: {}
+[42.790207] (-) TimerEvent: {}
+[42.890411] (-) TimerEvent: {}
+[42.990595] (-) TimerEvent: {}
+[43.090806] (-) TimerEvent: {}
+[43.191005] (-) TimerEvent: {}
+[43.291204] (-) TimerEvent: {}
+[43.391401] (-) TimerEvent: {}
+[43.491602] (-) TimerEvent: {}
+[43.591820] (-) TimerEvent: {}
+[43.692023] (-) TimerEvent: {}
+[43.792220] (-) TimerEvent: {}
+[43.892418] (-) TimerEvent: {}
+[43.992614] (-) TimerEvent: {}
+[44.092830] (-) TimerEvent: {}
+[44.193033] (-) TimerEvent: {}
+[44.293245] (-) TimerEvent: {}
+[44.393519] (-) TimerEvent: {}
+[44.493733] (-) TimerEvent: {}
+[44.594068] (-) TimerEvent: {}
+[44.694293] (-) TimerEvent: {}
+[44.794606] (-) TimerEvent: {}
+[44.895002] (-) TimerEvent: {}
+[44.995225] (-) TimerEvent: {}
+[45.095438] (-) TimerEvent: {}
+[45.195651] (-) TimerEvent: {}
+[45.295886] (-) TimerEvent: {}
+[45.396123] (-) TimerEvent: {}
+[45.496433] (-) TimerEvent: {}
+[45.596673] (-) TimerEvent: {}
+[45.696947] (-) TimerEvent: {}
+[45.797176] (-) TimerEvent: {}
+[45.897392] (-) TimerEvent: {}
+[45.997606] (-) TimerEvent: {}
+[46.097916] (-) TimerEvent: {}
+[46.198141] (-) TimerEvent: {}
+[46.298358] (-) TimerEvent: {}
+[46.398601] (-) TimerEvent: {}
+[46.498840] (-) TimerEvent: {}
+[46.599062] (-) TimerEvent: {}
+[46.699267] (-) TimerEvent: {}
+[46.799483] (-) TimerEvent: {}
+[46.899714] (-) TimerEvent: {}
+[46.999925] (-) TimerEvent: {}
+[47.100138] (-) TimerEvent: {}
+[47.200348] (-) TimerEvent: {}
+[47.300553] (-) TimerEvent: {}
+[47.400746] (-) TimerEvent: {}
+[47.500955] (-) TimerEvent: {}
+[47.601155] (-) TimerEvent: {}
+[47.701377] (-) TimerEvent: {}
+[47.801612] (-) TimerEvent: {}
+[47.901845] (-) TimerEvent: {}
+[48.002059] (-) TimerEvent: {}
+[48.102269] (-) TimerEvent: {}
+[48.202492] (-) TimerEvent: {}
+[48.302737] (-) TimerEvent: {}
+[48.402967] (-) TimerEvent: {}
+[48.503187] (-) TimerEvent: {}
+[48.603405] (-) TimerEvent: {}
+[48.642167] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[100%] Linking CXX executable xsens_mti_node\n'}
+[48.703510] (-) TimerEvent: {}
+[48.803722] (-) TimerEvent: {}
+[48.903938] (-) TimerEvent: {}
+[49.004172] (-) TimerEvent: {}
+[49.009950] (xsens_mti_ros2_driver) StdoutLine: {'line': b'[100%] Built target xsens_mti_node\n'}
+[49.021648] (xsens_mti_ros2_driver) CommandEnded: {'returncode': 0}
+[49.022621] (xsens_mti_ros2_driver) JobProgress: {'identifier': 'xsens_mti_ros2_driver', 'progress': 'install'}
+[49.023498] (xsens_mti_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pedro/usv_ws/build/xsens_mti_ros2_driver'], 'cwd': '/home/pedro/usv_ws/build/xsens_mti_ros2_driver', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/pedro/ardupilot_gazebo/build'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('OPENCODE_DISABLE_EMBEDDED_WEB_UI', 'true'), ('no_proxy', '127.0.0.1,localhost,::1'), ('AI_AGENT', 'opencode'), ('OPENCODE_SESSION_ID', 'ses_e9a809ff5ffeDhk05j4xO25tsU'), ('USER', 'pedro'), ('LC_TIME', 'pt_PT.UTF-8'), ('AGENT', '1'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/pedro/usv_ws/install/nmea_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pedro'), ('CHROME_DESKTOP', 'ai.opencode.desktop.desktop'), ('OLDPWD', '/home/pedro/usv_ws'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NO_PROXY', '127.0.0.1,localhost,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/ai.opencode.desktop.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_PT.UTF-8'), ('MANAGERPID', '1919'), ('LC_CTYPE', 'pt_PT.UTF-8'), ('SYSTEMD_EXEC_PID', '2264'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5206'), ('COLCON_PREFIX_PATH', '/home/pedro/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pedro'), ('OPENCODE_CLIENT', 'desktop'), ('JOURNAL_STREAM', '8:15062'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('OPENCODE_TERMINAL', '1'), ('USERNAME', 'pedro'), ('STM32_PRG_PATH', '/home/pedro/Desktop/STM32CubeProg/binexport'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OPENCODE', '1'), ('PATH', '/home/pedro/.local/bin:/opt/ros/humble/bin:/home/pedro/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/pedro/ardupilot/Tools/autotest:/home/pedro/.local/bin:/home/pedro/.local/bin:/home/pedro/ardu_ws/Micro-XRCE-DDS-Gen/scripts'), ('SESSION_MANAGER', 'local/pedro-ThinkPad-P16s-Gen-3:@/tmp/.ICE-unix/2240,unix/pedro-ThinkPad-P16s-Gen-3:/tmp/.ICE-unix/2240'), ('INVOCATION_ID', '335fbe013a6647fba86e64e01a43fc0f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_PT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('OPENCODE_EXPERIMENTAL_FILEWATCHER', 'true'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('OPENCODE_EXPERIMENTAL_ICON_DISCOVERY', 'true'), ('LC_TELEPHONE', 'pt_PT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/pedro/usv_ws/install/nmea_msgs:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_PT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_PT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'pt_PT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pedro/usv_ws/build/xsens_mti_ros2_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/pedro/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/pedro/usv_ws/install/nmea_msgs/local/lib/python3.10/dist-packages:/home/pedro/ros2_ws/install/rover_cmd_vel_pub/lib/python3.10/site-packages:/home/pedro/ros2_ws/install/cmd_vel_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_PT.UTF-8'), ('LC_PAPER', 'pt_PT.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/pedro/usv_ws/install/nmea_msgs:/home/pedro/ros2_ws/install/rover_cmd_vel_pub:/home/pedro/ros2_ws/install/cmd_vel_bridge:/opt/ros/humble')]), 'shell': False}
+[49.031891] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[49.032013] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/rosidl_interfaces/xsens_mti_ros2_driver\n'}
+[49.032393] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver\n'}
+[49.032464] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg\n'}
+[49.032525] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_c__visibility_control.h\n'}
+[49.032587] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/ship_motion.h\n'}
+[49.032648] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.h\n'}
+[49.032716] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail\n'}
+[49.032948] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.h\n'}
+[49.033104] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.h\n'}
+[49.033245] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.h\n'}
+[49.033382] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__functions.c\n'}
+[49.033521] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__functions.h\n'}
+[49.033607] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__functions.c\n'}
+[49.033733] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__functions.h\n'}
+[49.033794] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__struct.h\n'}
+[49.033930] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.h\n'}
+[49.033987] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.c\n'}
+[49.034083] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.h\n'}
+[49.034136] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__struct.h\n'}
+[49.034189] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__struct.h\n'}
+[49.034240] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__functions.h\n'}
+[49.034292] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__functions.c\n'}
+[49.034348] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.h\n'}
+[49.034478] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/gnss_pvt.h\n'}
+[49.034606] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/gnss_sat_info.h\n'}
+[49.034750] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.sh\n'}
+[49.034817] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.dsv\n'}
+[49.034909] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_c.so\n'}
+[49.034968] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_c.so" to ""\n'}
+[49.035021] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver\n'}
+[49.035075] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg\n'}
+[49.035130] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail\n'}
+[49.035238] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__rosidl_typesupport_fastrtps_c.h\n'}
+[49.035438] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__rosidl_typesupport_fastrtps_c.h\n'}
+[49.035533] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_c.h\n'}
+[49.035626] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__rosidl_typesupport_fastrtps_c.h\n'}
+[49.035759] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[49.035858] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[49.035920] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[49.036049] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver\n'}
+[49.036171] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg\n'}
+[49.036198] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/ship_motion.hpp\n'}
+[49.036258] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.hpp\n'}
+[49.036285] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[49.036314] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail\n'}
+[49.036343] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__traits.hpp\n'}
+[49.036372] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__builder.hpp\n'}
+[49.036400] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__struct.hpp\n'}
+[49.036487] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__traits.hpp\n'}
+[49.036516] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__struct.hpp\n'}
+[49.036544] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.hpp\n'}
+[49.036572] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.hpp\n'}
+[49.036601] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.hpp\n'}
+[49.036676] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__traits.hpp\n'}
+[49.036706] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__traits.hpp\n'}
+[49.036734] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__struct.hpp\n'}
+[49.036763] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__builder.hpp\n'}
+[49.036792] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.hpp\n'}
+[49.036820] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.hpp\n'}
+[49.036848] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__builder.hpp\n'}
+[49.036876] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__builder.hpp\n'}
+[49.036904] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/gnss_sat_info.hpp\n'}
+[49.036932] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/gnss_pvt.hpp\n'}
+[49.037047] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver\n'}
+[49.037077] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg\n'}
+[49.037106] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[49.037136] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail\n'}
+[49.037203] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.037234] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.037261] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/dds_fastrtps\n'}
+[49.037290] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.037318] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[49.037386] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[49.037563] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[49.037707] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver\n'}
+[49.037735] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg\n'}
+[49.037763] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail\n'}
+[49.037792] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.c\n'}
+[49.037863] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.c\n'}
+[49.037895] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.c\n'}
+[49.037962] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__rosidl_typesupport_introspection_c.h\n'}
+[49.038030] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.c\n'}
+[49.038095] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_c.h\n'}
+[49.038161] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__rosidl_typesupport_introspection_c.h\n'}
+[49.038229] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__rosidl_typesupport_introspection_c.h\n'}
+[49.038297] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[49.038398] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so\n'}
+[49.038665] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so" to ""\n'}
+[49.038828] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_c.so\n'}
+[49.039068] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_c.so" to ""\n'}
+[49.039204] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver\n'}
+[49.039233] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg\n'}
+[49.039262] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail\n'}
+[49.039290] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__type_support.cpp\n'}
+[49.039371] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__type_support.cpp\n'}
+[49.039446] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__type_support.cpp\n'}
+[49.039511] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_pvt__rosidl_typesupport_introspection_cpp.hpp\n'}
+[49.039538] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.cpp\n'}
+[49.039634] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_cpp.hpp\n'}
+[49.039756] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/gnss_sat_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[49.039841] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/ship_motion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[49.039869] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[49.040076] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[49.040144] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so\n'}
+[49.040354] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so" to ""\n'}
+[49.040422] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.sh\n'}
+[49.040482] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.dsv\n'}
+[49.040545] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info\n'}
+[49.040604] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/PKG-INFO\n'}
+[49.040732] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/top_level.txt\n'}
+[49.040915] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/SOURCES.txt\n'}
+[49.041010] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/dependency_links.txt\n'}
+[49.041073] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver\n'}
+[49.041168] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[49.041274] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/__init__.py\n'}
+[49.041352] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[49.041452] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/libxsens_mti_ros2_driver__rosidl_generator_py.so\n'}
+[49.041528] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg\n'}
+[49.041611] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/__init__.py\n'}
+[49.041656] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_pvt.py\n'}
+[49.041707] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_pvt_s.c\n'}
+[49.041751] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_sat_info_s.c\n'}
+[49.041794] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_ship_motion.py\n'}
+[49.041849] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word.py\n'}
+[49.041892] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_sat_info.py\n'}
+[49.041937] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word_s.c\n'}
+[49.041981] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_ship_motion_s.c\n'}
+[49.042025] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[49.042070] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_c.c\n'}
+[49.042115] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[49.042157] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[49.072095] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Listing '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver'...\n"}
+[49.072306] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/__init__.py'...\n"}
+[49.072413] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Listing '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg'...\n"}
+[49.072511] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/__init__.py'...\n"}
+[49.072603] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_pvt.py'...\n"}
+[49.072704] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_gnss_sat_info.py'...\n"}
+[49.072803] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_ship_motion.py'...\n"}
+[49.072893] (xsens_mti_ros2_driver) StdoutLine: {'line': b"Compiling '/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word.py'...\n"}
+[49.074961] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[49.075275] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[49.075453] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[49.075747] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[49.075922] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[49.076199] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[49.076321] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_py.so\n'}
+[49.076716] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_py.so" to ""\n'}
+[49.076844] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.idl\n'}
+[49.076964] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/ShipMotion.idl\n'}
+[49.077073] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/GnssPvt.idl\n'}
+[49.077150] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/GnssSatInfo.idl\n'}
+[49.077298] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.msg\n'}
+[49.077373] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/ShipMotion.msg\n'}
+[49.077509] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/GnssPvt.msg\n'}
+[49.077617] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/GnssSatInfo.msg\n'}
+[49.077707] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node\n'}
+[49.081728] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/pedro/usv_ws/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node" to ""\n'}
+[49.081946] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch\n'}
+[49.081978] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/xsens_mti_node.launch.py\n'}
+[49.082010] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/display.launch.py\n'}
+[49.082040] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param\n'}
+[49.082069] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param/xsens_mti_node_mti320.yaml\n'}
+[49.082099] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param/xsens_mti_node.yaml\n'}
+[49.082128] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/rviz\n'}
+[49.082204] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/rviz/display.rviz\n'}
+[49.082231] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf\n'}
+[49.082258] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.urdf\n'}
+[49.082282] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.urdf\n'}
+[49.082306] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.stl\n'}
+[49.082568] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.stl\n'}
+[49.084588] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.urdf\n'}
+[49.084642] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.stl\n'}
+[49.087010] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/package_run_dependencies/xsens_mti_ros2_driver\n'}
+[49.087175] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/parent_prefix_path/xsens_mti_ros2_driver\n'}
+[49.087207] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.sh\n'}
+[49.087236] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[49.087339] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.sh\n'}
+[49.087370] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.dsv\n'}
+[49.087399] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.bash\n'}
+[49.087427] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.sh\n'}
+[49.087524] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.zsh\n'}
+[49.087554] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.dsv\n'}
+[49.087581] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.dsv\n'}
+[49.087609] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/ament_index/resource_index/packages/xsens_mti_ros2_driver\n'}
+[49.087690] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport.cmake\n'}
+[49.087789] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport-release.cmake\n'}
+[49.087819] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[49.087934] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[49.087963] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cppExport.cmake\n'}
+[49.087991] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[49.088019] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[49.088094] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[49.088126] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[49.088155] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport.cmake\n'}
+[49.088252] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport-release.cmake\n'}
+[49.088283] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[49.088310] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[49.088404] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport.cmake\n'}
+[49.088435] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport-release.cmake\n'}
+[49.088464] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport.cmake\n'}
+[49.088556] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport-release.cmake\n'}
+[49.088589] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake-extras.cmake\n'}
+[49.088617] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[49.088684] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[49.088743] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[49.088776] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[49.088805] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[49.088867] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[49.088899] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig.cmake\n'}
+[49.088928] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig-version.cmake\n'}
+[49.088986] (xsens_mti_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/pedro/usv_ws/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.xml\n'}
+[49.090248] (xsens_mti_ros2_driver) CommandEnded: {'returncode': 0}
+[49.099263] (xsens_mti_ros2_driver) JobEnded: {'identifier': 'xsens_mti_ros2_driver', 'rc': 0}
+[49.099584] (-) EventReactorShutdown: {}
