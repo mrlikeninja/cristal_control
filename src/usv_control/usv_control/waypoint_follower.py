@@ -6,7 +6,6 @@ from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
 from transforms3d.euler import quat2euler
 
-
 class WaypointFollower(Node):
     def __init__(self):
         super().__init__('waypoint_follower')
@@ -29,7 +28,7 @@ class WaypointFollower(Node):
         # Control gains (start conservative)
         self.k_linear = 0.4   # m/s per meter of distance
         self.k_angular = 0.7  # rad/s per radian of heading error
-
+        
         # Limits
         self.max_linear = 0.3
         self.max_angular = 0.4
